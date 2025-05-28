@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonForBlocking__c</fullName>
+    <label>Reason for blocking</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Insolvency</fullName>
+                <default>false</default>
+                <label>Insolvency</label>
+            </value>
+            <value>
+                <fullName>Change of name</fullName>
+                <default>false</default>
+                <label>Change of name</label>
+            </value>
+            <value>
+                <fullName>Employees deactivated</fullName>
+                <default>false</default>
+                <label>Employees deactivated</label>
+            </value>
+            <value>
+                <fullName>Company dissolved</fullName>
+                <default>false</default>
+                <label>Company dissolved</label>
+            </value>
+            <value>
+                <fullName>Company already recorded</fullName>
+                <default>false</default>
+                <label>Company already recorded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fußballklub</label>
+    <name>FootballClub__c</name>
+    <picklistValues>
+        <masterLabel>1. FC Heidenheim 1846</masterLabel>
+        <translation><!-- 1. FC Heidenheim 1846 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1. FC Köln</masterLabel>
+        <translation><!-- 1. FC Köln --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1. FC Nürnberg</masterLabel>
+        <translation><!-- 1. FC Nürnberg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1. FC Union Berlin</masterLabel>
+        <translation><!-- 1. FC Union Berlin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1. FSV Mainz 05</masterLabel>
+        <translation><!-- 1. FSV Mainz 05 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bayer 04 Leverkusen</masterLabel>
+        <translation><!-- Bayer 04 Leverkusen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Borussia Dortmund</masterLabel>
+        <translation><!-- Borussia Dortmund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Borussia Mönchengladbach</masterLabel>
+        <translation><!-- Borussia Mönchengladbach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DSC Arminia Bielefeld</masterLabel>
+        <translation><!-- DSC Arminia Bielefeld --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eintracht Frankfurt</masterLabel>
+        <translation><!-- Eintracht Frankfurt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Augsburg</masterLabel>
+        <translation><!-- FC Augsburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Bayern München</masterLabel>
+        <translation><!-- FC Bayern München --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Erzgebirge Aue</masterLabel>
+        <translation><!-- FC Erzgebirge Aue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Hansa Rostock</masterLabel>
+        <translation><!-- FC Hansa Rostock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Ingolstadt 04</masterLabel>
+        <translation><!-- FC Ingolstadt 04 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC Schalke 04</masterLabel>
+        <translation><!-- FC Schalke 04 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FC St. Pauli</masterLabel>
+        <translation><!-- FC St. Pauli --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fortuna Düsseldorf</masterLabel>
+        <translation><!-- Fortuna Düsseldorf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hamburger SV</masterLabel>
+        <translation><!-- Hamburger SV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hannover 96</masterLabel>
+        <translation><!-- Hannover 96 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hertha BSC</masterLabel>
+        <translation><!-- Hertha BSC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holstein Kiel</masterLabel>
+        <translation><!-- Holstein Kiel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Karlsruher SC</masterLabel>
+        <translation><!-- Karlsruher SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RB Leipzig</masterLabel>
+        <translation><!-- RB Leipzig --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SC Paderborn 07</masterLabel>
+        <translation><!-- SC Paderborn 07 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SG Dynamo Dresden</masterLabel>
+        <translation><!-- SG Dynamo Dresden --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SSV Jahn Regensburg</masterLabel>
+        <translation><!-- SSV Jahn Regensburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SV Darmstadt 98</masterLabel>
+        <translation><!-- SV Darmstadt 98 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SV Sandhausen</masterLabel>
+        <translation><!-- SV Sandhausen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SV Werder Bremen</masterLabel>
+        <translation><!-- SV Werder Bremen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SpVgg Greuther Fürth</masterLabel>
+        <translation><!-- SpVgg Greuther Fürth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sport-Club Freiburg</masterLabel>
+        <translation><!-- Sport-Club Freiburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSG Hoffenheim</masterLabel>
+        <translation><!-- TSG Hoffenheim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VfB Stuttgart</masterLabel>
+        <translation><!-- VfB Stuttgart --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VfL Bochum</masterLabel>
+        <translation><!-- VfL Bochum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VfL Wolfsburg</masterLabel>
+        <translation><!-- VfL Wolfsburg --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

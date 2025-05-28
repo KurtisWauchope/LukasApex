@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visit_Report__c</fullName>
+    <label>Visit Report</label>
+    <referenceTo>VisitReport__c</referenceTo>
+    <relationshipLabel>Externe Kontakte</relationshipLabel>
+    <relationshipName>Visit_Report_Contact_Relations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Architect</fullName>
+                <default>false</default>
+                <label>Architect</label>
+            </value>
+            <value>
+                <fullName>General Constructor</fullName>
+                <default>false</default>
+                <label>General Constructor</label>
+            </value>
+            <value>
+                <fullName>Planner of cladding</fullName>
+                <default>false</default>
+                <label>Planner of cladding</label>
+            </value>
+            <value>
+                <fullName>Building Authority</fullName>
+                <default>false</default>
+                <label>Building Authority</label>
+            </value>
+            <value>
+                <fullName>Builder/ Awarding Office</fullName>
+                <default>false</default>
+                <label>Builder/ Awarding Office</label>
+            </value>
+            <value>
+                <fullName>Investor</fullName>
+                <default>false</default>
+                <label>Investor</label>
+            </value>
+            <value>
+                <fullName>Datenpflege ausstehend</fullName>
+                <default>false</default>
+                <label>Datenpflege ausstehend</label>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Projektsteuerer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Projektsteuerer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Projektpriorität</label>
+    <name>ProjectPriority__c</name>
+    <picklistValues>
+        <masterLabel>Key Object KAM</masterLabel>
+        <translation><!-- Key Object KAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prio A</masterLabel>
+        <translation><!-- Prio A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prio B</masterLabel>
+        <translation><!-- Prio B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prio C</masterLabel>
+        <translation><!-- Prio C --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

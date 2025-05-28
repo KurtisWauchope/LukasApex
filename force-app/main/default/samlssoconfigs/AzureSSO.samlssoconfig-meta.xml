@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>https://sts.windows.net/8ac7c4b3-ef3c-4a73-bb95-c784d85ff364/</issuer>
+    <loginUrl>https://login.microsoftonline.com/8ac7c4b3-ef3c-4a73-bb95-c784d85ff364/saml2</loginUrl>
+    <name>RAICO-SSO</name>
+    <oauthTokenEndpoint>https://raicobautechnik--training.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P17Q00000B47j1</requestSigningCertId>
+    <salesforceLoginUrl>https://raicobautechnik--training.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://raicobautechnik.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <singleLogoutBinding>RedirectBinding</singleLogoutBinding>
+    <singleLogoutUrl>https://login.microsoftonline.com/8ac7c4b3-ef3c-4a73-bb95-c784d85ff364/saml2</singleLogoutUrl>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC8DCCAdigAwIBAgIQOwRjdyZ1Fa9GJliaPNdsdTANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMzEwMDkwOTM3NDdaFw0yNjEwMDkwOTM3NDdaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtC9ycpQH4i1/gjujhMgH1ttwZWD8RhMfS9FSXbyChJ8a5vOMtZ8t5s/y8dpxpNxmGkOo11S6kKMw8IfaKNG1gw0gnxu8Gt57+MiyH709Q9rAV9OdmRnj1Gb7dvtNUzSZSUby0bPuPpdHVVGx362GnC4/PTf5LesUYeNqGBAJ/TrxCMnBXfZJAcqklAhGc0nSM7DNLEKu9N+AynWKQD07aXnwMnJxZGH1U25PhPsZ5luUNJQO81bdbvOtxaydSLYZKxjOPmfdchUNJxi7ZnXZJ6LgY8izZ14wxQY4O6+iJZPt295/Ul1xLDdZ1oe27gweaMKjAOURCzPgcPTt8dVOhQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCxXEOyuPh5UL4LGIe6ijuQzS6IPa+1iFDW8q/Q+wueBF1i/wDZauBhrURd+a7cGosHP1R4OIssAs9RItiVPeFA7ew76UTDyD/oeQKdJRA2eV40M07HgDCKlYxBsz6DzjmV0LYrGV/o2+jEvvYYJZv4e3/9n2ML+esmEkI8ZDBsLMKk8r/2V5Tl8RSwr61JfO0Y+Enex+2EZmVtvD9wuEsOcU4yM9xgdVT/ZZThSiankq4Y2Y0tm0ZGAV/rHZEN6bfadtoXfEKQZP8ZwNR1r09YQ7HQqFfItcSsbJS/9GDEF21oFYANFQOBJyT8JLag/RljbQif35040XfLkFy4vt2m</validationCert>
+</SamlSsoConfig>

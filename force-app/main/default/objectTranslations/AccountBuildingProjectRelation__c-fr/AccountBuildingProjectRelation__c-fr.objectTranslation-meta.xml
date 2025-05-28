@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Création de comptes Relations avec les projets</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Création de comptes Relations avec les projets</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Account Building Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Création de comptes Relations avec les projets</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Project_I__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Building Project I</label>
+    <referenceTo>BuildingProject__c</referenceTo>
+    <relationshipLabel>Visit Reports Trade Fair (Building Project I)</relationshipLabel>
+    <relationshipName>Visit_Reports_Trade_Fair1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

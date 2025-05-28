@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Building Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Building Project</value>
+    </caseValues>
+    <layouts>
+        <layout>Building Project Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Important Dates --></label>
+            <section>Important Dates</section>
+        </sections>
+        <sections>
+            <label><!-- to be deleted! --></label>
+            <section>to be deleted!</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Building Project Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Bidderlist Sent --></label>
+        <name>Bidderlist_Sent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Opportunities --></label>
+        <name>Create_Opportunities</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Expand bidder circle --></label>
+        <name>Expand_bidder_circle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload Picture --></label>
+        <name>Upload_Picture</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter an Address! --></errorMessage>
+        <name>AddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The character limit has been exceeded. --></errorMessage>
+        <name>ExternalNoteLengthPDF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The building project name or city name is too long. --></errorMessage>
+        <name>NameLength</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Bieterliste_PDF --></label>
+        <name>Bieterliste_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Building_Project_PDF --></label>
+        <name>Building_Project_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- enaio --></label>
+        <name>enaio</name>
+    </webLinks>
+</CustomObjectTranslation>

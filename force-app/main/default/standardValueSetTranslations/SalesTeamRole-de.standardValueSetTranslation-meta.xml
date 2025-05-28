@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Inside Sales</masterLabel>
+        <translation>Innendienst</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Sales</masterLabel>
+        <translation>Objektvertrieb</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Sales &amp; Sales</masterLabel>
+        <translation>Objektvertrieb &amp; Vertrieb</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales</masterLabel>
+        <translation>Vertrieb</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

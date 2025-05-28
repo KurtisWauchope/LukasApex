@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Absagegrund</label>
+    <name>Loss__c</name>
+    <picklistValues>
+        <masterLabel>Competition in tender</masterLabel>
+        <translation>Wettbewerb in Ausschreibung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery date</masterLabel>
+        <translation>Lieferdatum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No suitable technical solution</masterLabel>
+        <translation>Keine passende technische Lösung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offer submission too long</masterLabel>
+        <translation>Angebotsabgabe zu lang</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Preis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replaced</masterLabel>
+        <translation>Ersetzt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

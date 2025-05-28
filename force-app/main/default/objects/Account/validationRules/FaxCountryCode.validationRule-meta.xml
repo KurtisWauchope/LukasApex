@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FaxCountryCode</fullName>
+    <active>false</active>
+    <errorConditionFormula>if(!ISBLANK(Fax) &amp;&amp; !ISNULL(Fax),LEFT(Fax, 1) &lt;&gt; &quot;+&quot;,false)</errorConditionFormula>
+    <errorDisplayField>Fax</errorDisplayField>
+    <errorMessage>Please enter the country code. Example: +49</errorMessage>
+</ValidationRule>

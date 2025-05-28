@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Unité de système</label>
+    <name>SystemUnit__c</name>
+    <picklistValues>
+        <masterLabel>kg</masterLabel>
+        <translation><!-- kg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>linear meters</masterLabel>
+        <translation><!-- linear meters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>m²</masterLabel>
+        <translation><!-- m² --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>quantity</masterLabel>
+        <translation><!-- quantity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

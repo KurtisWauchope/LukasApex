@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competing_Bidder__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Competing Bidder</label>
+    <referenceTo>Bidder__c</referenceTo>
+    <relationshipLabel>Bidder Building Project Relations (Competing Bidder)</relationshipLabel>
+    <relationshipName>Bidder_Building_Project_Relations1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

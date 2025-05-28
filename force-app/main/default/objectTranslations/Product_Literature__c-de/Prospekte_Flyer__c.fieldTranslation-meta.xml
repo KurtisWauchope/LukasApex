@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prospekte, Flyer etc. --></label>
+    <name>Prospekte_Flyer__c</name>
+    <picklistValues>
+        <masterLabel>001039 - Infopaket</masterLabel>
+        <translation><!-- 001039 - Infopaket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001082 - Stahl | Fassade | FS-I // Prospekt THERM+ FS-I</masterLabel>
+        <translation><!-- 001082 - Stahl | Fassade | FS-I // Prospekt THERM+ FS-I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1022 - Prospekt Systemübersicht &quot;Wir geben Gebäuden ein Gesicht&quot;</masterLabel>
+        <translation><!-- 1022 - Prospekt Systemübersicht &quot;Wir geben Gebäuden ein Gesicht&quot; --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1044.1 - Flyer Service dt.</masterLabel>
+        <translation><!-- 1044.1 - Flyer Service dt. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1072 - SKY LIGHT SOLUTION</masterLabel>
+        <translation><!-- 1072 - SKY LIGHT SOLUTION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1103 - Prospekt Holz | Alu | Fenster (Stemeseder)</masterLabel>
+        <translation><!-- 1103 - Prospekt Holz | Alu | Fenster (Stemeseder) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1106 - Flyer Schulbau | RAICO macht Schule</masterLabel>
+        <translation><!-- 1106 - Flyer Schulbau | RAICO macht Schule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1108 - Objekt inside experimenta</masterLabel>
+        <translation><!-- 1108 - Objekt inside experimenta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1110 - Hebe-Schiebetüre SLIFT</masterLabel>
+        <translation><!-- 1110 - Hebe-Schiebetüre SLIFT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1113 - Objekt inside Explorit</masterLabel>
+        <translation><!-- 1113 - Objekt inside Explorit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1118 - Lookbook</masterLabel>
+        <translation><!-- 1118 - Lookbook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1122 - Lüftungsklappe 75 LF Broschüre</masterLabel>
+        <translation><!-- 1122 - Lüftungsklappe 75 LF Broschüre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1124 - ELEMENT+ H-I // Prospekt Holz-Elementfassade</masterLabel>
+        <translation><!-- 1124 - ELEMENT+ H-I // Prospekt Holz-Elementfassade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1126 - Objekt inside Calwer Passage</masterLabel>
+        <translation><!-- 1126 - Objekt inside Calwer Passage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1127 - Flyer Brandschutztür FRAME+ 75 DI FR30</masterLabel>
+        <translation><!-- 1127 - Flyer Brandschutztür FRAME+ 75 DI FR30 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2129 - Lookbook Elementierte Fassaden</masterLabel>
+        <translation><!-- 2129 - Lookbook Elementierte Fassaden --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

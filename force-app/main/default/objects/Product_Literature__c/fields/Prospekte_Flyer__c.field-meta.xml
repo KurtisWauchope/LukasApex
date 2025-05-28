@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospekte_Flyer__c</fullName>
+    <label>Prospekte, Flyer etc.</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>001039 - Infopaket</fullName>
+                <default>false</default>
+                <label>001039 - Infopaket</label>
+            </value>
+            <value>
+                <fullName>001082 - Stahl | Fassade | FS-I // Prospekt THERM+ FS-I</fullName>
+                <default>false</default>
+                <label>001082 - Stahl | Fassade | FS-I // Prospekt THERM+ FS-I</label>
+            </value>
+            <value>
+                <fullName>1022 - Prospekt Systemübersicht &quot;Wir geben Gebäuden ein Gesicht&quot;</fullName>
+                <default>false</default>
+                <label>1022 - Prospekt Systemübersicht &quot;Wir geben Gebäuden ein Gesicht&quot;</label>
+            </value>
+            <value>
+                <fullName>1072 - SKY LIGHT SOLUTION</fullName>
+                <default>false</default>
+                <label>1072 - SKY LIGHT SOLUTION</label>
+            </value>
+            <value>
+                <fullName>1044.1 - Flyer Service dt.</fullName>
+                <default>false</default>
+                <label>1044.1 - Flyer Service dt.</label>
+            </value>
+            <value>
+                <fullName>1103 - Prospekt Holz | Alu | Fenster (Stemeseder)</fullName>
+                <default>false</default>
+                <label>1103 - Prospekt Holz | Alu | Fenster (Stemeseder)</label>
+            </value>
+            <value>
+                <fullName>1106 - Flyer Schulbau | RAICO macht Schule</fullName>
+                <default>false</default>
+                <label>1106 - Flyer Schulbau | RAICO macht Schule</label>
+            </value>
+            <value>
+                <fullName>1108 - Objekt inside experimenta</fullName>
+                <default>false</default>
+                <label>1108 - Objekt inside experimenta</label>
+            </value>
+            <value>
+                <fullName>1113 - Objekt inside Explorit</fullName>
+                <default>false</default>
+                <label>1113 - Objekt inside Explorit</label>
+            </value>
+            <value>
+                <fullName>1126 - Objekt inside Calwer Passage</fullName>
+                <default>false</default>
+                <label>1126 - Objekt inside Calwer Passage</label>
+            </value>
+            <value>
+                <fullName>1124 - ELEMENT+ H-I // Prospekt Holz-Elementfassade</fullName>
+                <default>false</default>
+                <label>1124 - ELEMENT+ H-I // Prospekt Holz-Elementfassade</label>
+            </value>
+            <value>
+                <fullName>1118 - Lookbook</fullName>
+                <default>false</default>
+                <label>1118 - Lookbook</label>
+            </value>
+            <value>
+                <fullName>1127 - Flyer Brandschutztür FRAME+ 75 DI FR30</fullName>
+                <default>false</default>
+                <label>1127 - Flyer Brandschutztür FRAME+ 75 DI FR30</label>
+            </value>
+            <value>
+                <fullName>2129 - Lookbook Elementierte Fassaden</fullName>
+                <default>false</default>
+                <label>2129 - Lookbook Elementierte Fassaden</label>
+            </value>
+            <value>
+                <fullName>1110 - Hebe-Schiebetüre SLIFT</fullName>
+                <default>false</default>
+                <label>1110 - Hebe-Schiebetüre SLIFT</label>
+            </value>
+            <value>
+                <fullName>1122 - Lüftungsklappe 75 LF Broschüre</fullName>
+                <default>false</default>
+                <label>1122 - Lüftungsklappe 75 LF Broschüre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

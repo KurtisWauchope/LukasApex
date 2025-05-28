@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Picture Upload Layout</layout>
+        <sections>
+            <label><!-- Contact Picture --></label>
+            <section>Contact Picture</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Sync Contact --></label>
+        <name>SyncContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload Picture --></label>
+        <name>Upload_Picture</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please enter the country code. Example: +49 --></errorMessage>
+        <name>MobileNumberFormat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the country code. Example: +49 --></errorMessage>
+        <name>PhoneNumberFormat</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Upload_Picture --></label>
+        <name>Upload_Picture</name>
+    </webLinks>
+</CustomObjectTranslation>

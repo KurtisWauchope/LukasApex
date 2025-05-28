@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fabricator Layout</layout>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fabricator Information --></label>
+            <section>Fabricator Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sync Account --></label>
+        <name>SyncAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account Owner --></label>
+        <name>Update_Account_Owner</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Visit Report --></label>
+        <name>VisitReport</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Account --></label>
+        <name>Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fabricator --></label>
+        <name>Fabricator</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter an Address! --></errorMessage>
+        <name>BillingAddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the country code. Example: +49 --></errorMessage>
+        <name>FaxCountryCode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a language --></errorMessage>
+        <name>LanguageField</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the country code. Example: +49 --></errorMessage>
+        <name>PhoneCountryCode</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- enaio --></label>
+        <name>enaio</name>
+    </webLinks>
+</CustomObjectTranslation>

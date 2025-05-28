@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Absagegrund</label>
+    <name>Reasons_for_cancellation__c</name>
+    <picklistValues>
+        <masterLabel>Deadline</masterLabel>
+        <translation>Abgabefrist</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execution period</masterLabel>
+        <translation>Ausführungszeitraum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Place of execution</masterLabel>
+        <translation>Ausführungsort</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project participants</masterLabel>
+        <translation>Projektbeteiligte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong systems</masterLabel>
+        <translation>Falsche Systeme</translation>
+    </picklistValues>
+</CustomFieldTranslation>

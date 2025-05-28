@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reasons_for_cancellation__c</fullName>
+    <label>Reasons for cancellation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Outcome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Place of execution</fullName>
+                <default>false</default>
+                <label>Place of execution</label>
+            </value>
+            <value>
+                <fullName>Deadline</fullName>
+                <default>false</default>
+                <label>Deadline</label>
+            </value>
+            <value>
+                <fullName>Execution period</fullName>
+                <default>false</default>
+                <label>Execution period</label>
+            </value>
+            <value>
+                <fullName>Project participants</fullName>
+                <default>false</default>
+                <label>Project participants</label>
+            </value>
+            <value>
+                <fullName>Wrong systems</fullName>
+                <default>false</default>
+                <label>Wrong systems</label>
+            </value>
+            <value>
+                <fullName>City/Country</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>City/Country</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not submitted</controllingFieldValue>
+            <valueName>Place of execution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not submitted</controllingFieldValue>
+            <valueName>Deadline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not submitted</controllingFieldValue>
+            <valueName>Execution period</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not submitted</controllingFieldValue>
+            <valueName>Project participants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not submitted</controllingFieldValue>
+            <valueName>Wrong systems</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

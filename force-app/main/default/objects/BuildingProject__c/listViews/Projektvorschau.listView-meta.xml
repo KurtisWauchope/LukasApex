@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projektvorschau</fullName>
+    <columns>NAME</columns>
+    <columns>Postal_Code_City__c</columns>
+    <columns>DateOfServiceSpecification__c</columns>
+    <columns>Stage__c</columns>
+    <columns>ConstructionStart__c</columns>
+    <columns>Material__c</columns>
+    <columns>Total_Size__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>SubmissionDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ProjectPreview__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kern</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>Projektvorschau</label>
+</ListView>

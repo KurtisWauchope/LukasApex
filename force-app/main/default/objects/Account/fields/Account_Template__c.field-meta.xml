@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>2000 - Customer, third country except Switzerland English-speaking
+
+2001 - Customer, third country except Switzerland German-speaking
+
+2002 - Customer, third country except Switzerland French-speaking
+
+2010 - Customer, Switzerland German-speaking
+
+2020 - Customer, Switzerland French-speaking
+
+2030 - Customer, Switzerland English-speaking
+
+3000 - Customer, EU except FR English-speaking
+
+3001 - Customer, EU except FR German-speaking
+
+Translated with www.DeepL.com/Translator (free version)</inlineHelpText>
+    <label>Account Template</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account_Template__c.Name</field>
+            <operation>notEqual</operation>
+            <value>Migrated Account</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Account_Template__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

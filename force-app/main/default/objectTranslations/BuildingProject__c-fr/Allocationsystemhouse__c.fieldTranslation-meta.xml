@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Attribution gammiste</label>
+    <name>Allocationsystemhouse__c</name>
+    <relationshipLabel><!-- Building Project (Allocation System house) --></relationshipLabel>
+</CustomFieldTranslation>

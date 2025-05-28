@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Deliveries__c</fullName>
+    <defaultValue>&quot;1&quot;</defaultValue>
+    <description>Part of the Simple Invoice/Quote/Packing Slip app. If an order includes more than 1 part (i.e. 3 boxes) this tracks the number of parts associated with a Packing Slip.</description>
+    <externalId>false</externalId>
+    <label>Number of Deliveries</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

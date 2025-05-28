@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SystemUnit__c</fullName>
+    <label>System Unit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>sqm</fullName>
+                <default>true</default>
+                <label>m²</label>
+            </value>
+            <value>
+                <fullName>quantity</fullName>
+                <default>false</default>
+                <label>quantity</label>
+            </value>
+            <value>
+                <fullName>linear meters</fullName>
+                <default>false</default>
+                <label>linear meters</label>
+            </value>
+            <value>
+                <fullName>kg</fullName>
+                <default>false</default>
+                <label>kg</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSource__c</fullName>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Architekturwettbewerb</fullName>
+                <default>false</default>
+                <label>Architekturwettbewerb</label>
+            </value>
+            <value>
+                <fullName>Construction site</fullName>
+                <default>false</default>
+                <label>Construction site</label>
+            </value>
+            <value>
+                <fullName>DOCUmedia</fullName>
+                <default>false</default>
+                <label>DOCUmedia</label>
+            </value>
+            <value>
+                <fullName>Documedia CH</fullName>
+                <default>false</default>
+                <label>Documedia CH</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>iBau</fullName>
+                <default>false</default>
+                <label>iBau</label>
+            </value>
+            <value>
+                <fullName>Own research</fullName>
+                <default>false</default>
+                <label>Own research</label>
+            </value>
+            <value>
+                <fullName>Personal network</fullName>
+                <default>false</default>
+                <label>Personal network</label>
+            </value>
+            <value>
+                <fullName>Phone call</fullName>
+                <default>false</default>
+                <label>Phone call</label>
+            </value>
+            <value>
+                <fullName>SIMAP</fullName>
+                <default>false</default>
+                <label>SIMAP</label>
+            </value>
+            <value>
+                <fullName>TED</fullName>
+                <default>false</default>
+                <label>TED</label>
+            </value>
+            <value>
+                <fullName>Vergabe24</fullName>
+                <default>false</default>
+                <label>Vergabe24</label>
+            </value>
+            <value>
+                <fullName>vip Network</fullName>
+                <default>false</default>
+                <label>vip Network</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

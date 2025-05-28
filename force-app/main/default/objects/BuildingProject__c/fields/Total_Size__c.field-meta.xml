@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Size__c</fullName>
+    <label>Total Size</label>
+    <summarizedField>Systems__c.SystemSize__c</summarizedField>
+    <summaryFilterItems>
+        <field>Systems__c.SystemUnit__c</field>
+        <operation>equals</operation>
+        <value>qm</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Systems__c.BuildingProjectSystem__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

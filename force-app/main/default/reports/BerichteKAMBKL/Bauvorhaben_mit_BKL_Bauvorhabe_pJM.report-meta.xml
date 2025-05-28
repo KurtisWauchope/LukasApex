@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.Postal_Code_City__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ComarchBuildingProjectNumber__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.Stage__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>BuildingProject__c.Total_Size__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.DateOfServiceSpecification__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ConstructionStart__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Bernd Klein</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BuildingProject__c.Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Research,Consulting/ Planning,Tender &amp; Quote,Award Fabricator,Award System house</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BuildingProject__c.Material__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Aluminium,Steel,Timber</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BuildingProject__c.TotalSize__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>de</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Bauvorhaben mit BKL Bauvorhabenteam</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$BuildingProject__c$Building_Project_Team__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

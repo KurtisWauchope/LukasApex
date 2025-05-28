@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Bevorzugtes Material</label>
+    <name>PreferredMaterial__c</name>
+    <picklistValues>
+        <masterLabel>Aluminum door</masterLabel>
+        <translation>Aluminiumtür</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum facade</masterLabel>
+        <translation>Aluminiumfassade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum punched window / window frames</masterLabel>
+        <translation>Aluminium Lochfenster/-Fensterbänder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum roof</masterLabel>
+        <translation>Aluminiumdach</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire protection door</masterLabel>
+        <translation>Brandschutztüre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift-and-slide door</masterLabel>
+        <translation>Hebe Schiebe Tür</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular Solution FRAME+</masterLabel>
+        <translation>elementierte Lösung FRAME+</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular Solution THERM+</masterLabel>
+        <translation>elementierte Lösung THERM+</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operational window</masterLabel>
+        <translation>Einsatzfenster</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roof window</masterLabel>
+        <translation>Dachfenster</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel facade</masterLabel>
+        <translation>Stahlfassade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel roof</masterLabel>
+        <translation>Stahldach</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wood-Aluminum Windows</masterLabel>
+        <translation>Holz-Aluminium Fenster</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden facade</masterLabel>
+        <translation>Holzfassade</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden roof</masterLabel>
+        <translation>Holzdach</translation>
+    </picklistValues>
+</CustomFieldTranslation>

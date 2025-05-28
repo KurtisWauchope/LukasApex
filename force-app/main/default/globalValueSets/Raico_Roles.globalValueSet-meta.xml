@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Inside Sales</fullName>
+        <default>false</default>
+        <label>Inside Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Sales</fullName>
+        <default>false</default>
+        <label>Project Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </customValue>
+    <masterLabel>Raico Roles</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

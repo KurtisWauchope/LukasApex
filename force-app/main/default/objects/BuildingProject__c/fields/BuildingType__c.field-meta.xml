@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BuildingType__c</fullName>
+    <label>Building Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Culture</fullName>
+                <default>false</default>
+                <label>Culture</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Habitation</fullName>
+                <default>false</default>
+                <label>Habitation</label>
+            </value>
+            <value>
+                <fullName>Industrial and trade</fullName>
+                <default>false</default>
+                <label>Industrial and trade</label>
+            </value>
+            <value>
+                <fullName>Office and administration</fullName>
+                <default>false</default>
+                <label>Office and administration</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sport</fullName>
+                <default>false</default>
+                <label>Sport</label>
+            </value>
+            <value>
+                <fullName>care and health</fullName>
+                <default>false</default>
+                <label>care and health</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

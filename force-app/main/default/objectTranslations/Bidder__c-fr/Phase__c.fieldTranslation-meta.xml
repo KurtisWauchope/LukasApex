@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Phase</label>
+    <name>Phase__c</name>
+    <picklistValues>
+        <masterLabel>Calculated</masterLabel>
+        <translation>Calculé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation>Cloturé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Put on bidder list</masterLabel>
+        <translation>Inclus dans liste soumissionnaires</translation>
+    </picklistValues>
+</CustomFieldTranslation>

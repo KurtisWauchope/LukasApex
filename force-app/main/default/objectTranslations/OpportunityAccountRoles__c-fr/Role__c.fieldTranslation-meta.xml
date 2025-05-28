@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Architect</masterLabel>
+        <translation><!-- Architect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Builder/ Awarding Office</masterLabel>
+        <translation><!-- Builder/ Awarding Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building Authority</masterLabel>
+        <translation><!-- Building Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Constructor</masterLabel>
+        <translation><!-- General Constructor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor</masterLabel>
+        <translation><!-- Investor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planner of cladding</masterLabel>
+        <translation><!-- Planner of cladding --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

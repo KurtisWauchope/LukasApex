@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Hobbies</label>
+    <name>Hobbies__c</name>
+    <picklistValues>
+        <masterLabel>Basketball</masterLabel>
+        <translation><!-- Basketball --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bike</masterLabel>
+        <translation>Rad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chess</masterLabel>
+        <translation>Schach</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cooking</masterLabel>
+        <translation>Kochen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cross-country skiing</masterLabel>
+        <translation>Langlauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diving</masterLabel>
+        <translation>Tauchen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Garden</masterLabel>
+        <translation>Garten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golf</masterLabel>
+        <translation><!-- Golf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handball</masterLabel>
+        <translation><!-- Handball --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horse riding</masterLabel>
+        <translation>Reiten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Languages</masterLabel>
+        <translation>Sprachen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Literature</masterLabel>
+        <translation>Literatur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motorcycle</masterLabel>
+        <translation>Motorrad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Racing</masterLabel>
+        <translation>Rennsport</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Running</masterLabel>
+        <translation>Laufen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ski</masterLabel>
+        <translation><!-- Ski --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soccer</masterLabel>
+        <translation>Fußball</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Squash</masterLabel>
+        <translation><!-- Squash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swimming</masterLabel>
+        <translation>Schwimmen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Table tennis</masterLabel>
+        <translation>Tischtennis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tennis</masterLabel>
+        <translation>Tennis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travel</masterLabel>
+        <translation>Reisen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volleyball</masterLabel>
+        <translation><!-- Volleyball --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walking</masterLabel>
+        <translation><!-- Walking --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

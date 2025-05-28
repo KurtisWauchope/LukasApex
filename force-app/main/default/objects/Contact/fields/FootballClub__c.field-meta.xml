@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FootballClub__c</fullName>
+    <label>Football Club</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1. FC Heidenheim 1846</fullName>
+                <default>false</default>
+                <label>1. FC Heidenheim 1846</label>
+            </value>
+            <value>
+                <fullName>1. FC Köln</fullName>
+                <default>false</default>
+                <label>1. FC Köln</label>
+            </value>
+            <value>
+                <fullName>1. FC Nürnberg</fullName>
+                <default>false</default>
+                <label>1. FC Nürnberg</label>
+            </value>
+            <value>
+                <fullName>1. FC Union Berlin</fullName>
+                <default>false</default>
+                <label>1. FC Union Berlin</label>
+            </value>
+            <value>
+                <fullName>1. FSV Mainz 05</fullName>
+                <default>false</default>
+                <label>1. FSV Mainz 05</label>
+            </value>
+            <value>
+                <fullName>Bayer 04 Leverkusen</fullName>
+                <default>false</default>
+                <label>Bayer 04 Leverkusen</label>
+            </value>
+            <value>
+                <fullName>Borussia Dortmund</fullName>
+                <default>false</default>
+                <label>Borussia Dortmund</label>
+            </value>
+            <value>
+                <fullName>Borussia Mönchengladbach</fullName>
+                <default>false</default>
+                <label>Borussia Mönchengladbach</label>
+            </value>
+            <value>
+                <fullName>DSC Arminia Bielefeld</fullName>
+                <default>false</default>
+                <label>DSC Arminia Bielefeld</label>
+            </value>
+            <value>
+                <fullName>Eintracht Frankfurt</fullName>
+                <default>false</default>
+                <label>Eintracht Frankfurt</label>
+            </value>
+            <value>
+                <fullName>FC Augsburg</fullName>
+                <default>false</default>
+                <label>FC Augsburg</label>
+            </value>
+            <value>
+                <fullName>FC Bayern München</fullName>
+                <default>false</default>
+                <label>FC Bayern München</label>
+            </value>
+            <value>
+                <fullName>FC Erzgebirge Aue</fullName>
+                <default>false</default>
+                <label>FC Erzgebirge Aue</label>
+            </value>
+            <value>
+                <fullName>FC Hansa Rostock</fullName>
+                <default>false</default>
+                <label>FC Hansa Rostock</label>
+            </value>
+            <value>
+                <fullName>FC Ingolstadt 04</fullName>
+                <default>false</default>
+                <label>FC Ingolstadt 04</label>
+            </value>
+            <value>
+                <fullName>FC Schalke 04</fullName>
+                <default>false</default>
+                <label>FC Schalke 04</label>
+            </value>
+            <value>
+                <fullName>FC St. Pauli</fullName>
+                <default>false</default>
+                <label>FC St. Pauli</label>
+            </value>
+            <value>
+                <fullName>Fortuna Düsseldorf</fullName>
+                <default>false</default>
+                <label>Fortuna Düsseldorf</label>
+            </value>
+            <value>
+                <fullName>Hamburger SV</fullName>
+                <default>false</default>
+                <label>Hamburger SV</label>
+            </value>
+            <value>
+                <fullName>Hannover 96</fullName>
+                <default>false</default>
+                <label>Hannover 96</label>
+            </value>
+            <value>
+                <fullName>Hertha BSC</fullName>
+                <default>false</default>
+                <label>Hertha BSC</label>
+            </value>
+            <value>
+                <fullName>Holstein Kiel</fullName>
+                <default>false</default>
+                <label>Holstein Kiel</label>
+            </value>
+            <value>
+                <fullName>Karlsruher SC</fullName>
+                <default>false</default>
+                <label>Karlsruher SC</label>
+            </value>
+            <value>
+                <fullName>RB Leipzig</fullName>
+                <default>false</default>
+                <label>RB Leipzig</label>
+            </value>
+            <value>
+                <fullName>SC Paderborn 07</fullName>
+                <default>false</default>
+                <label>SC Paderborn 07</label>
+            </value>
+            <value>
+                <fullName>SG Dynamo Dresden</fullName>
+                <default>false</default>
+                <label>SG Dynamo Dresden</label>
+            </value>
+            <value>
+                <fullName>Sport-Club Freiburg</fullName>
+                <default>false</default>
+                <label>Sport-Club Freiburg</label>
+            </value>
+            <value>
+                <fullName>SpVgg Greuther Fürth</fullName>
+                <default>false</default>
+                <label>SpVgg Greuther Fürth</label>
+            </value>
+            <value>
+                <fullName>SSV Jahn Regensburg</fullName>
+                <default>false</default>
+                <label>SSV Jahn Regensburg</label>
+            </value>
+            <value>
+                <fullName>SV Darmstadt 98</fullName>
+                <default>false</default>
+                <label>SV Darmstadt 98</label>
+            </value>
+            <value>
+                <fullName>SV Sandhausen</fullName>
+                <default>false</default>
+                <label>SV Sandhausen</label>
+            </value>
+            <value>
+                <fullName>SV Werder Bremen</fullName>
+                <default>false</default>
+                <label>SV Werder Bremen</label>
+            </value>
+            <value>
+                <fullName>TSG Hoffenheim</fullName>
+                <default>false</default>
+                <label>TSG Hoffenheim</label>
+            </value>
+            <value>
+                <fullName>VfB Stuttgart</fullName>
+                <default>false</default>
+                <label>VfB Stuttgart</label>
+            </value>
+            <value>
+                <fullName>VfL Bochum</fullName>
+                <default>false</default>
+                <label>VfL Bochum</label>
+            </value>
+            <value>
+                <fullName>VfL Wolfsburg</fullName>
+                <default>false</default>
+                <label>VfL Wolfsburg</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

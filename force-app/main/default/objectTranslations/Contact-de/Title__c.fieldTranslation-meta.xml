@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Title --></label>
+    <name>Title__c</name>
+    <picklistValues>
+        <masterLabel>ArchitektIn</masterLabel>
+        <translation><!-- ArchitektIn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSc.</masterLabel>
+        <translation><!-- BSc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DI Mag.</masterLabel>
+        <translation><!-- DI Mag. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dipl. Ing.</masterLabel>
+        <translation><!-- Dipl. Ing. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dipl. Ing. (FH)</masterLabel>
+        <translation><!-- Dipl. Ing. (FH) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dipl. Wirt.-Ing (FH)</masterLabel>
+        <translation><!-- Dipl. Wirt.-Ing (FH) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dipl.-Ing. Arch (FH)</masterLabel>
+        <translation><!-- Dipl.-Ing. Arch (FH) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dipl.-Ing. ArchitektIn</masterLabel>
+        <translation><!-- Dipl.-Ing. ArchitektIn --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr.</masterLabel>
+        <translation><!-- Dr. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr. Dipl. Ing.</masterLabel>
+        <translation><!-- Dr. Dipl. Ing. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr. Ing.</masterLabel>
+        <translation><!-- Dr. Ing. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ing.</masterLabel>
+        <translation><!-- Ing. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ing. Mag.</masterLabel>
+        <translation><!-- Ing. Mag. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M. Arch.</masterLabel>
+        <translation><!-- M. Arch. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M.A. Architektin</masterLabel>
+        <translation><!-- M.A. Architektin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MBA</masterLabel>
+        <translation><!-- MBA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mag.</masterLabel>
+        <translation><!-- Mag. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mag. Arch.</masterLabel>
+        <translation><!-- Mag. Arch. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mag. MBA</masterLabel>
+        <translation><!-- Mag. MBA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prof.</masterLabel>
+        <translation><!-- Prof. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prof. Dipl. Ing.</masterLabel>
+        <translation><!-- Prof. Dipl. Ing. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prof. Dr.</masterLabel>
+        <translation><!-- Prof. Dr. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

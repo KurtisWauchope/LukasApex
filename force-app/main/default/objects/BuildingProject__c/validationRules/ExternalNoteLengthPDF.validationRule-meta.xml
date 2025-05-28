@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalNoteLengthPDF</fullName>
+    <active>true</active>
+    <description>Externe Bemerkung soll auf dem Bauvorhaben PDF limitiert sein, damit alle</description>
+    <errorConditionFormula>LEN(ExternalNote__c)&gt;134</errorConditionFormula>
+    <errorDisplayField>ExternalNote__c</errorDisplayField>
+    <errorMessage>The character limit has been exceeded.</errorMessage>
+</ValidationRule>

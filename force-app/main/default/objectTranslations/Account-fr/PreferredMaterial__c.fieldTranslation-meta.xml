@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Matériel préféré</label>
+    <name>PreferredMaterial__c</name>
+    <picklistValues>
+        <masterLabel>Aluminum door</masterLabel>
+        <translation>Porte en aluminium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum facade</masterLabel>
+        <translation>Façade en aluminium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum punched window / window frames</masterLabel>
+        <translation>Fenêtre perforée en aluminium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aluminum roof</masterLabel>
+        <translation>Toit en aluminium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fire protection door</masterLabel>
+        <translation>Porte coupe-feu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lift-and-slide door</masterLabel>
+        <translation>Porte levante et coulissante</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular Solution FRAME+</masterLabel>
+        <translation><!-- Modular Solution FRAME+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modular Solution THERM+</masterLabel>
+        <translation><!-- Modular Solution THERM+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operational window</masterLabel>
+        <translation>Fenêtre opérationnelle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roof window</masterLabel>
+        <translation>Fenêtre de toit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel facade</masterLabel>
+        <translation>Façade en acier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel roof</masterLabel>
+        <translation>Toit en acier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wood-Aluminum Windows</masterLabel>
+        <translation>Fenêtres bois-aluminium</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden facade</masterLabel>
+        <translation>Façade en bois</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wooden roof</masterLabel>
+        <translation>Toit en bois</translation>
+    </picklistValues>
+</CustomFieldTranslation>

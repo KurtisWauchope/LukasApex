@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Typ</label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Extension</masterLabel>
+        <translation>Erweiterung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New construction</masterLabel>
+        <translation>Neubau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renovation</masterLabel>
+        <translation>Sanierung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

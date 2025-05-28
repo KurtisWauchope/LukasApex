@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>Publicité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Construction site</masterLabel>
+        <translation>Chantier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Event</masterLabel>
+        <translation>Événement client</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee Referral</masterLabel>
+        <translation>Recommandation employé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External Referral</masterLabel>
+        <translation>Recommandation externe</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Google AdWords</masterLabel>
+        <translation><!-- Google AdWords --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Divers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Own research</masterLabel>
+        <translation>Recherche personnelle</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation>Partenaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Personal network</masterLabel>
+        <translation>Réseau privé</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Phone call</masterLabel>
+        <translation>Entretien téléphonique</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Purchased List</masterLabel>
+        <translation>Listing acheté</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Social media</masterLabel>
+        <translation><!-- Social media --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Webinar</masterLabel>
+        <translation><!-- Webinar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Website</masterLabel>
+        <translation>Site web</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>iBau</masterLabel>
+        <translation><!-- iBau --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>vip Network</masterLabel>
+        <translation><!-- vip Network --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

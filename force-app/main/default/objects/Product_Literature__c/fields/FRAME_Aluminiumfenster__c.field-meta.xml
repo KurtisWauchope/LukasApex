@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FRAME_Aluminiumfenster__c</fullName>
+    <label>FRAME+ Aluminiumfenster</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>001002 - Planung FRAME+ Aluminiumfenster 75</fullName>
+                <default>false</default>
+                <label>001002 - Planung FRAME+ Aluminiumfenster 75</label>
+            </value>
+            <value>
+                <fullName>001117 - Planung/Verarbeitung Lüftungsklappe FRAME+ 75 LF</fullName>
+                <default>false</default>
+                <label>001117 - Planung/Verarbeitung Lüftungsklappe FRAME+ 75 LF</label>
+            </value>
+            <value>
+                <fullName>001052 - Planung FRAME+ Aluminiumfenster 90 WI/SF/WB/WB-T</fullName>
+                <default>false</default>
+                <label>001052 - Planung FRAME+ Aluminiumfenster 90 WI/SF/WB/WB-T</label>
+            </value>
+            <value>
+                <fullName>001065 - Planung FRAME+ Dachfenster 100/120 RI</fullName>
+                <default>false</default>
+                <label>001065 - Planung FRAME+ Dachfenster 100/120 RI</label>
+            </value>
+            <value>
+                <fullName>001016 - Verarbeitung FRAME+ Aluminiumfenster</fullName>
+                <default>false</default>
+                <label>001016 - Verarbeitung FRAME+ Aluminiumfenster</label>
+            </value>
+            <value>
+                <fullName>001053 - Verarbeitung FRAME+ Aluminiumfenster 90 WI/WB/WB-T</fullName>
+                <default>false</default>
+                <label>001053 - Verarbeitung FRAME+ Aluminiumfenster 90 WI/WB/WB-T</label>
+            </value>
+            <value>
+                <fullName>001066 - Verarbeitung FRAME+ Dachfenster 100/120 RI</fullName>
+                <default>false</default>
+                <label>001066 - Verarbeitung FRAME+ Dachfenster 100/120 RI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

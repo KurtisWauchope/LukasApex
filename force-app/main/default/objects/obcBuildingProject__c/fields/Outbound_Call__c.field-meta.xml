@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outbound_Call__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Outbound Call</label>
+    <referenceTo>OutboundCall__c</referenceTo>
+    <relationshipLabel>Outbound Building Projects</relationshipLabel>
+    <relationshipName>Outbound_Building_Projects</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

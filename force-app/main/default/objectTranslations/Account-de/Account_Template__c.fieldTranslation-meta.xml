@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>2000 - Kunde, Drittland außer Schweiz englischsprachig  2001 - Kunde, Drittland außer Schweiz deutschsprachig  2002 - Kunde, Drittland außer Schweiz französischsprachig  2010 - Kunde, Schweiz deutschsprachig  2020 - Kunde Schweiz französischsprachig  2030 - Kunde Schweiz englischsprachig  3000 - Kunde, EU außer FR englischsprachig  3001 - Kunde, EU außer FR deutschsprachig     ...     etc.</help>
+    <label><!-- Account Template --></label>
+    <name>Account_Template__c</name>
+    <relationshipLabel><!-- Accounts --></relationshipLabel>
+</CustomFieldTranslation>

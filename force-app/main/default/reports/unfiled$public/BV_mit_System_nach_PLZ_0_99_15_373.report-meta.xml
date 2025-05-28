@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>BuildingProject__c.ProjectAddress__City__s</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ProjectAddress__PostalCode__s</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ComarchBuildingProjectNumber__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.DateOfServiceSpecification__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ConstructionStart__c</field>
+    </columns>
+    <columns>
+        <field>Systems__c.SystemType__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Systems__c.SystemSize__c</field>
+    </columns>
+    <description>Filter nach Bauvorhaben im PLZ Gebiet , mit Systemtyp und Größe</description>
+    <filter>
+        <criteriaItems>
+            <column>Systems__c.SystemType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Aluminiumfassade,Holzfassade,Stahlfassade,Aluminiumdach,Holzdach,Stahldach,Aluminium Lochfenster/-Fensterbänder,Einsatzfenster,elementierte Lösung THERM+,elementierte Lösung FRAME+,Hebe Schiebe Türe,Holz-Aluminium Fenster,Aluminiumtüre,Brandschutztüre,Dachfenster</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BuildingProject__c.ProjectAddress__PostalCode__s</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>0,99,15,373</value>
+        </criteriaItems>
+        <language>de</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>BV mit System nach PLZ 0, 99, 15, 373</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$BuildingProject__c$Systems__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>BuildingProject__c.SubmissionDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

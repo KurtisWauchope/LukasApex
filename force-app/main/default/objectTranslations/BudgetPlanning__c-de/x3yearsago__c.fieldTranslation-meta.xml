@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Umsatz vor 3 Jahren --></help>
+    <label>Vor 3 Jahren</label>
+    <name>x3yearsago__c</name>
+</CustomFieldTranslation>

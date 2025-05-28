@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_edit_once_submitted</fullName>
+    <active>true</active>
+    <description>As soon as the budget planning record has been set to &apos;submitted&apos; it can no longer be edited except for by a System Admin</description>
+    <errorConditionFormula>AND(  NOT($Permission.Update_Budgetplanning) 
+   ,
+    OR(
+        ISPICKVAL(PRIORVALUE(Status__c), &quot;Submitted&quot;),
+        AND(
+            NOT(ISCHANGED(Status__c)),
+            ISPICKVAL(Status__c, &quot;Submitted&quot;)
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>You cannot change the values once the budget report has been submitted.</errorMessage>
+</ValidationRule>

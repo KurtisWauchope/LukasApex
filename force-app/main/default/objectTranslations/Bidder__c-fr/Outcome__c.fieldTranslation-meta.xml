@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Résultat</label>
+    <name>Outcome__c</name>
+    <picklistValues>
+        <masterLabel>Not submitted</masterLabel>
+        <translation>Non remis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted</masterLabel>
+        <translation>Remis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

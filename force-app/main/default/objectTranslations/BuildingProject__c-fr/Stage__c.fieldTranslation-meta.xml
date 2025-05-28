@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Phase</label>
+    <name>Stage__c</name>
+    <picklistValues>
+        <masterLabel>Award Fabricator</masterLabel>
+        <translation>Phase d&apos;attribution de marché</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Award System house</masterLabel>
+        <translation>Phase d&apos;attribution de la société de système</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Terminé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting/ Planning</masterLabel>
+        <translation>Conseil/planification</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execution</masterLabel>
+        <translation>Exécution</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research</masterLabel>
+        <translation>Phase de recherche</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tender &amp; Quote</masterLabel>
+        <translation>Appel d&apos;offres &amp; offre</translation>
+    </picklistValues>
+</CustomFieldTranslation>

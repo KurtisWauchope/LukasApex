@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitled_to_Commission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Project Sales/Responsible</description>
+    <label>Entitled to Commission</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

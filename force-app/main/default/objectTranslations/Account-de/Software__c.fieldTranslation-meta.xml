@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Software --></label>
+    <name>Software__c</name>
+    <picklistValues>
+        <masterLabel>Klaes</masterLabel>
+        <translation><!-- Klaes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logikal</masterLabel>
+        <translation><!-- Logikal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAP</masterLabel>
+        <translation><!-- MAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schüco</masterLabel>
+        <translation><!-- Schüco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wicona</masterLabel>
+        <translation><!-- Wicona --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

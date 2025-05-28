@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ausschreibungsart</label>
+    <name>TenderType__c</name>
+    <picklistValues>
+        <masterLabel>Competitive bidding</masterLabel>
+        <translation>Teilnahmewettbewerb</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Contractor</masterLabel>
+        <translation>Generalunternehmer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public</masterLabel>
+        <translation>Öffentlich</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restricted</masterLabel>
+        <translation>Beschränkt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

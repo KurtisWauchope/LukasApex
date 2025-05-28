@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Projet de construction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projet de construction</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Building Project Layout</layout>
+        <sections>
+            <label>Complément info adresse</label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label>Dates importantes</label>
+            <section>Important Dates</section>
+        </sections>
+        <sections>
+            <label><!-- to be deleted! --></label>
+            <section>to be deleted!</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Projet de construction</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Liste des soumissionnaires envoyée</label>
+        <name>Bidderlist_Sent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Opportunities --></label>
+        <name>Create_Opportunities</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Élargir le cercle des soumissionnaires</label>
+        <name>Expand_bidder_circle</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Télécharger une image</label>
+        <name>Upload_Picture</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter an Address! --></errorMessage>
+        <name>AddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The character limit has been exceeded. --></errorMessage>
+        <name>ExternalNoteLengthPDF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The building project name or city name is too long. --></errorMessage>
+        <name>NameLength</name>
+    </validationRules>
+    <webLinks>
+        <label>Liste soumissionaires - PDF</label>
+        <name>Bieterliste_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label>Projet de construction - PDF</label>
+        <name>Building_Project_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- enaio --></label>
+        <name>enaio</name>
+    </webLinks>
+</CustomObjectTranslation>

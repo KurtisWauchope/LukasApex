@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FRAME_Aluminiumt_r_75_DI__c</fullName>
+    <label>FRAME+ Aluminiumtür 75 DI</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>001004 - Planung FRAME+ Aluminiumtür 75 DI</fullName>
+                <default>false</default>
+                <label>001004 - Planung FRAME+ Aluminiumtür 75 DI</label>
+            </value>
+            <value>
+                <fullName>001123 - Planung/Verarbeitung FRAME+ Brandschutztür 75 DI FR30</fullName>
+                <default>false</default>
+                <label>001123 - Planung/Verarbeitung FRAME+ Brandschutztür 75 DI FR30</label>
+            </value>
+            <value>
+                <fullName>001005 - Planung FRAME+ Aluminiumtür 75 DI Beschläge</fullName>
+                <default>false</default>
+                <label>001005 - Planung FRAME+ Aluminiumtür 75 DI Beschläge</label>
+            </value>
+            <value>
+                <fullName>001018 - Verarbeitung FRAME+ Aluminiumtür 75 DI</fullName>
+                <default>false</default>
+                <label>001018 - Verarbeitung FRAME+ Aluminiumtür 75 DI</label>
+            </value>
+            <value>
+                <fullName>001019 - Verarbeitung FRAME+ Aluminiumtür 75 DI Beschläge</fullName>
+                <default>false</default>
+                <label>001019 - Verarbeitung FRAME+ Aluminiumtür 75 DI Beschläge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

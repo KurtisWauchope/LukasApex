@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ELEMENT+ H-I --></label>
+    <name>ELEMENT_H_I__c</name>
+    <picklistValues>
+        <masterLabel>001128 - Planung ELEMENT+ H-I</masterLabel>
+        <translation><!-- 001128 - Planung ELEMENT+ H-I --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

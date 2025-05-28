@@ -1,0 +1,61 @@
+<apex:page standardController="BuildingProject__c" extensions="V11_BuildingProjectControllerExtension" showHeader="false" renderas="pdf">
+  <apex:pageBlock >
+    <table cellpadding="1" style="font-family: Arial Unicode MS;font-size:12pt;" width="100%">
+      <tr>
+        <th style="padding-bottom: 20px">
+          <img src='{!URLFOR($Resource.businesslogo)}' title="logo" align="right" height="35"/>
+        </th>
+      </tr>
+      <tr>
+        <td style="font-family: Arial Unicode MS;font-size:22pt;padding-bottom: 20px">{!$Label.Fabricator_recommendation}</td>
+      </tr>
+      <hr style="border-color: red; margin-bottom: 30px; border-width: 3px; border-style: solid;"> </hr>
+      <tr>
+      <td style="width:100%;font-family: Arial Unicode MS; font-size: 12pt;"><b>BV: </b> {!BuildingProject__c.Name} </td>
+      </tr>
+      <tr>
+        <td style="width:100%;font-family: Arial Unicode MS; font-size: 12pt;">{!BuildingProject__c.ComarchBuildingProjectNumber__c}</td>
+      </tr>
+      <tr>
+    <td>
+      <apex:outputText value="{0, date,  dd.MM.yyyy}" style="font-family: Arial Unicode MS;font-size: 12pt;">
+        <apex:param value="{!NOW()}" />
+      </apex:outputText>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td style="width:100%;font-family: Arial Unicode MS; font-size: 12pt;">{!$Label.Raico_Contact}: </td>
+  </tr>
+  <apex:repeat value="{!ProjectSalesRep}" var="o" >
+    <tr>
+      <td colspan="3" style="width:100%;font-family: Arial Unicode MS; font-size: 12pt;">
+        <apex:outputText value="{!o.Name}" />
+      </td>
+    </tr>
+  </apex:repeat>
+
+<tr><td>&nbsp;</td></tr>
+
+   </table>
+  </apex:pageBlock> 
+
+  <apex:pageBlock >
+    <table style="width:100%;font-family: Arial Unicode MS; font-size: 12pt;" cellpadding="10">
+      <apex:repeat value="{!bidders}" var="b">
+        <tr style="page-break-inside: avoid;">
+          <td width="25%">
+            <b>{!b.Account.Name}</b> <br></br>
+            {!b.Salutation} {!b.firstname} {!b.lastname}<br></br>
+            {!b.Account.billingstreet}<br></br>
+            {!b.Account.BillingPostalCode} {!b.Account.BillingCity}<br></br>
+            {!b.Account.BillingCountry}<br></br>
+            Tel.: {!b.Phone}<br></br>
+            Mobil: {!b.mobilephone}<br></br>
+            Mail: {!b.email}
+          </td>
+        </tr>
+      </apex:repeat>
+    </table>
+  </apex:pageBlock> 
+</apex:page>

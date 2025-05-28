@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- FRAME+ Aluminiumtür 75 DI --></label>
+    <name>FRAME_Aluminiumt_r_75_DI__c</name>
+    <picklistValues>
+        <masterLabel>001004 - Planung FRAME+ Aluminiumtür 75 DI</masterLabel>
+        <translation><!-- 001004 - Planung FRAME+ Aluminiumtür 75 DI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001005 - Planung FRAME+ Aluminiumtür 75 DI Beschläge</masterLabel>
+        <translation><!-- 001005 - Planung FRAME+ Aluminiumtür 75 DI Beschläge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001018 - Verarbeitung FRAME+ Aluminiumtür 75 DI</masterLabel>
+        <translation><!-- 001018 - Verarbeitung FRAME+ Aluminiumtür 75 DI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001019 - Verarbeitung FRAME+ Aluminiumtür 75 DI Beschläge</masterLabel>
+        <translation><!-- 001019 - Verarbeitung FRAME+ Aluminiumtür 75 DI Beschläge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001123 - Planung/Verarbeitung FRAME+ Brandschutztür 75 DI FR30</masterLabel>
+        <translation><!-- 001123 - Planung/Verarbeitung FRAME+ Brandschutztür 75 DI FR30 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

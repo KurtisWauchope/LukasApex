@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recently_viewed_RAICO_UK</fullName>
+    <columns>NAME</columns>
+    <columns>Postal_Code_City__c</columns>
+    <columns>ComarchBuildingProjectNumber__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>Recently viewed RAICO UK</label>
+    <sharedTo>
+        <role>SalesUK</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Bauvorhaben</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Building Project Layout</layout>
+        <sections>
+            <label>Adressinformation</label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label>Wichtige Termine</label>
+            <section>Important Dates</section>
+        </sections>
+        <sections>
+            <label><!-- to be deleted! --></label>
+            <section>to be deleted!</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Bauvorhaben Name</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Bieterliste versendet</label>
+        <name>Bidderlist_Sent</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Opportunities erstellen</label>
+        <name>Create_Opportunities</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Bieterkreis erweitern</label>
+        <name>Expand_bidder_circle</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Bild hochladen</label>
+        <name>Upload_Picture</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please enter an Address! --></errorMessage>
+        <name>AddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The character limit has been exceeded. --></errorMessage>
+        <name>ExternalNoteLengthPDF</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The building project name or city name is too long. --></errorMessage>
+        <name>NameLength</name>
+    </validationRules>
+    <webLinks>
+        <label>Bieterliste - PDF</label>
+        <name>Bieterliste_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label>Bauvorhaben - PDF</label>
+        <name>Building_Project_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- enaio --></label>
+        <name>enaio</name>
+    </webLinks>
+</CustomObjectTranslation>

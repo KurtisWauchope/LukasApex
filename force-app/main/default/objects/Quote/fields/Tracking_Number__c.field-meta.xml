@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracking_Number__c</fullName>
+    <description>Part of the Simple Invoice/Quote/Packing Slip app. This allows a tracking number to be associated with a Packing Slip. This is in rich text format to accommodate bar codes, and images.</description>
+    <label>Tracking Number</label>
+    <length>256</length>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

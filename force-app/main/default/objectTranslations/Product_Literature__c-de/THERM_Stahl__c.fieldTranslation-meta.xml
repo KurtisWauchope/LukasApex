@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- THERM+ Stahl --></label>
+    <name>THERM_Stahl__c</name>
+    <picklistValues>
+        <masterLabel>001114 - Verarbeitung THERM+ S-I</masterLabel>
+        <translation><!-- 001114 - Verarbeitung THERM+ S-I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001116 - Verarbeitung THERM+ FS-I</masterLabel>
+        <translation><!-- 001116 - Verarbeitung THERM+ FS-I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001405 - Planung THERM+ Stahl</masterLabel>
+        <translation><!-- 001405 - Planung THERM+ Stahl --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Position --></label>
+    <name>Position__c</name>
+    <picklistValues>
+        <masterLabel>Authorized Signatory</masterLabel>
+        <translation>Fondé de pouvoir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employee</masterLabel>
+        <translation>Employé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executive</masterLabel>
+        <translation>Cadre supérieur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Managing Director</masterLabel>
+        <translation>Directeur général</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shareholder</masterLabel>
+        <translation>Actionnaire</translation>
+    </picklistValues>
+</CustomFieldTranslation>

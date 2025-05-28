@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Product Literature</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Produkt Literatures</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Product Literature Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Literature --></label>
+            <section>Product Literature</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Method --></label>
+            <section>Shipping Method</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

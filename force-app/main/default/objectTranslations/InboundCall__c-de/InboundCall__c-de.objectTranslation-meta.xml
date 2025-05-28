@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Inbound Call</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Inbound Calls</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Inbound Call Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Import Inbound Call --></label>
+        <name>Import_Inbound_Call</name>
+    </quickActions>
+</CustomObjectTranslation>

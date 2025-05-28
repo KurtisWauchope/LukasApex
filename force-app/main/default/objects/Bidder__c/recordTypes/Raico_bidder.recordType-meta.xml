@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raico_bidder</fullName>
+    <active>true</active>
+    <label>Raico bidder</label>
+    <picklistValues>
+        <picklist>Interest__c</picklist>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not interested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Not submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Phase__c</picklist>
+        <values>
+            <fullName>Calculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Put_on_bidder_list</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reasons_for_cancellation__c</picklist>
+        <values>
+            <fullName>Deadline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Execution period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Place of execution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project participants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong systems</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

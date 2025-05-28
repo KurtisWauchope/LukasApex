@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>1. Einladungsrunde</fullName>
+        <default>false</default>
+        <label>1. Einladungsrunde</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2. Einladungsrunde</fullName>
+        <default>false</default>
+        <label>2. Einladungsrunde</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Geantwortet</fullName>
+        <default>false</default>
+        <label>Geantwortet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gesendet</fullName>
+        <default>false</default>
+        <label>Gesendet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+</StandardValueSet>

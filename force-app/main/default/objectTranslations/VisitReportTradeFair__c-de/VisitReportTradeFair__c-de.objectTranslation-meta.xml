@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Messe Besuchsbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Messe Besuchsberichte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Messe Besuchsbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Messe Besuchsberichte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Messe Besuchsbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Messe Besuchsberichte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Messe Besuchsbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Messe Besuchsberichte</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Visit Report Trade Fair Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data Policy --></label>
+            <section>Data Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Discussed Building Project --></label>
+            <section>Discussed Building Project</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Messe Besuchsbericht Name</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Datenschutzrichtlinie muss akzeptiert werden, um fortzufahren. --></errorMessage>
+        <name>Data_Policy_Check</name>
+    </validationRules>
+</CustomObjectTranslation>

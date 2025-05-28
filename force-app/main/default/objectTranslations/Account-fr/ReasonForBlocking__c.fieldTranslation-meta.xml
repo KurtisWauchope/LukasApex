@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motif de verrouillage</label>
+    <name>ReasonForBlocking__c</name>
+    <picklistValues>
+        <masterLabel>Change of name</masterLabel>
+        <translation>Changement de dénomination</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Company already recorded</masterLabel>
+        <translation>Société déjà enregistrée</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Company dissolved</masterLabel>
+        <translation>Société dissoute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employees deactivated</masterLabel>
+        <translation>Employé désactivé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insolvency</masterLabel>
+        <translation>Faillite</translation>
+    </picklistValues>
+</CustomFieldTranslation>

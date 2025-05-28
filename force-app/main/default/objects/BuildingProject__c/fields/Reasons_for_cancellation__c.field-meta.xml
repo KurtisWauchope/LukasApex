@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reasons_for_cancellation__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>if a building project was closed because it was lost, the reasons for the loss needs to be provided.</description>
+    <label>Reasons for cancellation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Closing_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project will not be executed</fullName>
+                <default>false</default>
+                <label>Project will not be executed</label>
+            </value>
+            <value>
+                <fullName>RAICO (Technical solution)</fullName>
+                <default>false</default>
+                <label>RAICO (Technical solution)</label>
+            </value>
+            <value>
+                <fullName>RAICO (Price)</fullName>
+                <default>false</default>
+                <label>RAICO (Price)</label>
+            </value>
+            <value>
+                <fullName>RAICO (Time)</fullName>
+                <default>false</default>
+                <label>RAICO (Time)</label>
+            </value>
+            <value>
+                <fullName>Delivery time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delivery time</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>System requirements</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>System requirements</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Project will not be executed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>RAICO (Technical solution)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>RAICO (Price)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>RAICO (Time)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

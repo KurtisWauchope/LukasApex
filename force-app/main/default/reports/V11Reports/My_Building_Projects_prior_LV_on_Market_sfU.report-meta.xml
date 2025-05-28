@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Building_Project_Team__c.User__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>BuildingProject__c.Amount__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.TotalSize__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>BuildingProject__c.DateOfServiceSpecification__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Date of Service Specification Countdown</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$BuildingProject__c$Building_Project_Team__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>BuildingProject__c.DateOfServiceSpecification__c</dateColumn>
+        <interval>INTERVAL_NEXT90</interval>
+    </timeFrameFilter>
+</Report>

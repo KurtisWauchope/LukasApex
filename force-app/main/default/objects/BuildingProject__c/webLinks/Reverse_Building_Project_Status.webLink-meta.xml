@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reverse_Building_Project_Status</fullName>
+    <availability>online</availability>
+    <description>Dieser Button ruft den Flow auf welcher den Status des Building Projects, sowie die Opportunities und Quotes durchführt</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Reverse Building Project Status</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Reverse_Status_from_Opportunity_and_Building_Project?recordId={!BuildingProject__c.Id}</url>
+</WebLink>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Grund für Absage</label>
+    <name>Loss_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Customer has not received the order</masterLabel>
+        <translation>Kunde hat Auftrag nicht erhalten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer has not submitted an offer</masterLabel>
+        <translation>Kunde hat kein Angebot abgegeben</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project will not be executed</masterLabel>
+        <translation>Projekt wird nicht ausgeführt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAICO (Price)</masterLabel>
+        <translation>RAICO (Preis)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RAICO (Technical solution)</masterLabel>
+        <translation>RAICO (Technische Lösung)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

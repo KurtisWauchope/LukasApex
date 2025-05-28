@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.Postal_Code_City__c</field>
+    </columns>
+    <columns>
+        <field>BuildingProject__c.ComarchBuildingProjectNumber__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>BuildingProject__c.TotalSize__c</field>
+    </columns>
+    <description>Neue Bauvorhaben der letzten 7 Tagen</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8) AND 9</booleanFilter>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Dirk Herbel</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Gunther Helmle</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Uwe Götz</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Andreas Krier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Philipp Nuscheler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>André Burger</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Matthias Pieper</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Building_Project_Team__c.User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Dirk Vogel</value>
+        </criteriaItems>
+        <language>de</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Building_Project_Team__c.User__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Neue BV´s, diese Woche - OV DE</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$BuildingProject__c$Building_Project_Team__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LAST30</interval>
+    </timeFrameFilter>
+</Report>

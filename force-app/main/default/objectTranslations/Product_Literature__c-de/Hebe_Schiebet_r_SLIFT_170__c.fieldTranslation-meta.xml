@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Hebe-Schiebetür SLIFT 170 --></label>
+    <name>Hebe_Schiebet_r_SLIFT_170__c</name>
+    <picklistValues>
+        <masterLabel>001109 - Planung Hebe-Schiebetür SLIFT 170</masterLabel>
+        <translation><!-- 001109 - Planung Hebe-Schiebetür SLIFT 170 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001111 - Verarbeitung Hebe-Schiebetür SLIFT 170</masterLabel>
+        <translation><!-- 001111 - Verarbeitung Hebe-Schiebetür SLIFT 170 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>Account_Infortmation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Information</shortDescription>
+        <value>Account Information</value>
+    </labels>
+    <labels>
+        <fullName>Address_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address Information</shortDescription>
+        <value>Address Information</value>
+    </labels>
+    <labels>
+        <fullName>Allgemeines</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Amount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>Annual_Revenue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Annual Revenue</shortDescription>
+        <value>Budget</value>
+    </labels>
+    <labels>
+        <fullName>Architect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Architect</shortDescription>
+        <value>Architect</value>
+    </labels>
+    <labels>
+        <fullName>BestCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Best Case</shortDescription>
+        <value>Best Case</value>
+    </labels>
+    <labels>
+        <fullName>BidderCircle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BidderCircle</shortDescription>
+        <value>Bidder Circle</value>
+    </labels>
+    <labels>
+        <fullName>BidderDeletionErr</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BidderDeletionErr</shortDescription>
+        <value>The bidder list has already been sent and the bidder contacted. You cannot delete this record.</value>
+    </labels>
+    <labels>
+        <fullName>BidderList</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Bidder List</shortDescription>
+        <value>Bidder List</value>
+    </labels>
+    <labels>
+        <fullName>Budget_Planning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Budget Planning</shortDescription>
+        <value>Budget Planning</value>
+    </labels>
+    <labels>
+        <fullName>Builder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder</shortDescription>
+        <value>Builder</value>
+    </labels>
+    <labels>
+        <fullName>Building_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Building Project</shortDescription>
+        <value>Building Project</value>
+    </labels>
+    <labels>
+        <fullName>Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Building Type</shortDescription>
+        <value>Building Type</value>
+    </labels>
+    <labels>
+        <fullName>Choose_Option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Choose Option</shortDescription>
+        <value>Please choose an option</value>
+    </labels>
+    <labels>
+        <fullName>Close_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close Date</shortDescription>
+        <value>Close Date</value>
+    </labels>
+    <labels>
+        <fullName>Closed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Lost</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Lost</shortDescription>
+        <value>Closed Lost</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Won</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Won</shortDescription>
+        <value>Closed Won</value>
+    </labels>
+    <labels>
+        <fullName>Comment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>Commit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit</shortDescription>
+        <value>Commit</value>
+    </labels>
+    <labels>
+        <fullName>Competitor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Competitor</shortDescription>
+        <value>Competitor</value>
+    </labels>
+    <labels>
+        <fullName>Construction_End</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Construction End</shortDescription>
+        <value>Construction End Planned</value>
+    </labels>
+    <labels>
+        <fullName>Construction_Start</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Construction Start</shortDescription>
+        <value>Construction Start</value>
+    </labels>
+    <labels>
+        <fullName>Construction_site</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Construction site</shortDescription>
+        <value>Construction site</value>
+    </labels>
+    <labels>
+        <fullName>Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>Contacts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contacts</shortDescription>
+        <value>Contacts</value>
+    </labels>
+    <labels>
+        <fullName>Create_Building_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Building Project</shortDescription>
+        <value>Create new Building Project</value>
+    </labels>
+    <labels>
+        <fullName>Create_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Opportunity</shortDescription>
+        <value>Create new Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Culture</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Culture</shortDescription>
+        <value>Culture</value>
+    </labels>
+    <labels>
+        <fullName>DataCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DataCheck</shortDescription>
+        <value>Check whether the data is still up to date!</value>
+    </labels>
+    <labels>
+        <fullName>Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>Date_Service_Spezification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Service Specification</shortDescription>
+        <value>Date of Service Specification</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Duration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duration</shortDescription>
+        <value>Duration</value>
+    </labels>
+    <labels>
+        <fullName>Education</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Education</shortDescription>
+        <value>Education</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Enhance_bidder_circle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expand bidder circle</shortDescription>
+        <value>Expand bidder circle</value>
+    </labels>
+    <labels>
+        <fullName>Error_FLOW</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Flow Error</shortDescription>
+        <value>Please communicate the following error message to the administrator:</value>
+    </labels>
+    <labels>
+        <fullName>ExecutionDuration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExecutionDuration</shortDescription>
+        <value>Execution Period</value>
+    </labels>
+    <labels>
+        <fullName>ExtNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExtNote</shortDescription>
+        <value>Note</value>
+    </labels>
+    <labels>
+        <fullName>Extension</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Extension</shortDescription>
+        <value>Extension</value>
+    </labels>
+    <labels>
+        <fullName>External_participants</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External participants</shortDescription>
+        <value>External participants</value>
+    </labels>
+    <labels>
+        <fullName>Fabricator</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Fabricator</shortDescription>
+        <value>Fabricator</value>
+    </labels>
+    <labels>
+        <fullName>Fabricator_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fabricator Information</shortDescription>
+        <value>Fabricator Information</value>
+    </labels>
+    <labels>
+        <fullName>Fabricator_recommendation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fabricator recommendation</shortDescription>
+        <value>Fabricator recommendation</value>
+    </labels>
+    <labels>
+        <fullName>Forecast_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forecast Category</shortDescription>
+        <value>Forecast Category</value>
+    </labels>
+    <labels>
+        <fullName>General</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>GeneralConstructor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneralConstructor</shortDescription>
+        <value>General Constructor</value>
+    </labels>
+    <labels>
+        <fullName>General_Contractor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Contractor</shortDescription>
+        <value>General Contractor</value>
+    </labels>
+    <labels>
+        <fullName>Habitation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Habitation</shortDescription>
+        <value>Habitation</value>
+    </labels>
+    <labels>
+        <fullName>Important_Dates</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Important Dates</shortDescription>
+        <value>Important Dates</value>
+    </labels>
+    <labels>
+        <fullName>In_Preperation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>In Preparation</shortDescription>
+        <value>In Preparation</value>
+    </labels>
+    <labels>
+        <fullName>Industrial_and_t</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Industrial and trade</shortDescription>
+        <value>Industrial and trade</value>
+    </labels>
+    <labels>
+        <fullName>Info_Text_Flow_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Info Text Flow 1</shortDescription>
+        <value>Please choose a closing date for the opportunitites.</value>
+    </labels>
+    <labels>
+        <fullName>Info_Text_Flow_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Info Text Flow 2</shortDescription>
+        <value>Please select the fabricators for which you want to create an opportunities.</value>
+    </labels>
+    <labels>
+        <fullName>Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Information</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>Internal_participants</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Internal participants</shortDescription>
+        <value>Internal participants</value>
+    </labels>
+    <labels>
+        <fullName>Lead_Source</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead Source</shortDescription>
+        <value>Lead Source</value>
+    </labels>
+    <labels>
+        <fullName>Link_Building_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link Building Project</shortDescription>
+        <value>Link existing Building Project</value>
+    </labels>
+    <labels>
+        <fullName>Link_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link Opportunity</shortDescription>
+        <value>Link existing Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>NDA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NDA</shortDescription>
+        <value>Non Disclosure Agreement</value>
+    </labels>
+    <labels>
+        <fullName>New_construction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New construction</shortDescription>
+        <value>New construction</value>
+    </labels>
+    <labels>
+        <fullName>No_Building_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Building Project</shortDescription>
+        <value>No Building Projects were discussed</value>
+    </labels>
+    <labels>
+        <fullName>No_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Opportunity</shortDescription>
+        <value>No Opportunities were discussed</value>
+    </labels>
+    <labels>
+        <fullName>Office</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Office and administration</shortDescription>
+        <value>Office and administration</value>
+    </labels>
+    <labels>
+        <fullName>Omitted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Omitted</shortDescription>
+        <value>Omitted</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity</shortDescription>
+        <value>Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Other</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Other</shortDescription>
+        <value>Other</value>
+    </labels>
+    <labels>
+        <fullName>Own_research</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Own research</shortDescription>
+        <value>Own research</value>
+    </labels>
+    <labels>
+        <fullName>Personal_network</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Personal network</shortDescription>
+        <value>Personal network</value>
+    </labels>
+    <labels>
+        <fullName>Phone_call</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phone call</shortDescription>
+        <value>Phone call</value>
+    </labels>
+    <labels>
+        <fullName>Pipeline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pipeline</shortDescription>
+        <value>Pipeline</value>
+    </labels>
+    <labels>
+        <fullName>Planner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Planner</shortDescription>
+        <value>Planner</value>
+    </labels>
+    <labels>
+        <fullName>Priority</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Priority</shortDescription>
+        <value>Priority</value>
+    </labels>
+    <labels>
+        <fullName>Proactive_bidder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Proactive bidder</shortDescription>
+        <value>Proactive bidder</value>
+    </labels>
+    <labels>
+        <fullName>ProjectInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProjectInfo</shortDescription>
+        <value>Project Information</value>
+    </labels>
+    <labels>
+        <fullName>ProjectSales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProjectSales</shortDescription>
+        <value>Project Sales</value>
+    </labels>
+    <labels>
+        <fullName>ProjectTeam</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Team</shortDescription>
+        <value>Project Team</value>
+    </labels>
+    <labels>
+        <fullName>Proposal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Proposal</shortDescription>
+        <value>Proposal</value>
+    </labels>
+    <labels>
+        <fullName>Public</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Public</shortDescription>
+        <value>Public</value>
+    </labels>
+    <labels>
+        <fullName>QuoteManagement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QuoteManagement</shortDescription>
+        <value>Quote Management</value>
+    </labels>
+    <labels>
+        <fullName>R</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renovation</shortDescription>
+        <value>Renovation</value>
+    </labels>
+    <labels>
+        <fullName>RaicoPrNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RaicoPrNumber</shortDescription>
+        <value>Raico Project Number</value>
+    </labels>
+    <labels>
+        <fullName>Raico_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Raico Contact</shortDescription>
+        <value>Raico Contact</value>
+    </labels>
+    <labels>
+        <fullName>Raico_bidder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Raico bidder</shortDescription>
+        <value>Raico bidder</value>
+    </labels>
+    <labels>
+        <fullName>Restricted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restricted</shortDescription>
+        <value>Restricted</value>
+    </labels>
+    <labels>
+        <fullName>Sales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales</shortDescription>
+        <value>Sales</value>
+    </labels>
+    <labels>
+        <fullName>Scope</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Scope</shortDescription>
+        <value>System Scope</value>
+    </labels>
+    <labels>
+        <fullName>SelectBidderType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectBidderType</shortDescription>
+        <value>Select a Bidder Type</value>
+    </labels>
+    <labels>
+        <fullName>Size_Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Size Total</shortDescription>
+        <value>Total Size (in sm)</value>
+    </labels>
+    <labels>
+        <fullName>Sport</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sport</shortDescription>
+        <value>Sport</value>
+    </labels>
+    <labels>
+        <fullName>Stage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stage</shortDescription>
+        <value>Stage</value>
+    </labels>
+    <labels>
+        <fullName>Steel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Steel</shortDescription>
+        <value>Steel</value>
+    </labels>
+    <labels>
+        <fullName>Suggested_For_Bidder_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Suggested For Bidder List</shortDescription>
+        <value>Suggested For Bidder List</value>
+    </labels>
+    <labels>
+        <fullName>Suggested_For_Building_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Suggested For Building Project</shortDescription>
+        <value>Suggested For Building Project</value>
+    </labels>
+    <labels>
+        <fullName>System_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Information</shortDescription>
+        <value>System Information</value>
+    </labels>
+    <labels>
+        <fullName>TED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TED</shortDescription>
+        <value>TED</value>
+    </labels>
+    <labels>
+        <fullName>Tender_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tender Type</shortDescription>
+        <value>Tender Type</value>
+    </labels>
+    <labels>
+        <fullName>Timber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Timber</shortDescription>
+        <value>Timber</value>
+    </labels>
+    <labels>
+        <fullName>Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title</shortDescription>
+        <value>Titel</value>
+    </labels>
+    <labels>
+        <fullName>ToastSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ToastSuccess</shortDescription>
+        <value>The Opportunities were created successfully!</value>
+    </labels>
+    <labels>
+        <fullName>Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>Vergabe24</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vergabe24</shortDescription>
+        <value>Vergabe24</value>
+    </labels>
+    <labels>
+        <fullName>ers_CancelButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Filter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearSelectionButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Selection</shortDescription>
+        <value>Clear Selection</value>
+    </labels>
+    <labels>
+        <fullName>ers_ColumnHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column</shortDescription>
+        <value>Column</value>
+    </labels>
+    <labels>
+        <fullName>ers_EmptyTableMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty</shortDescription>
+        <value>This table currently has no data to display</value>
+    </labels>
+    <labels>
+        <fullName>ers_ErrorRequiredEntry</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>This is a required entry.  At least 1 row must be selected.</value>
+    </labels>
+    <labels>
+        <fullName>ers_FilterHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_LabelHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label</shortDescription>
+        <value>Label</value>
+    </labels>
+    <labels>
+        <fullName>ers_SaveButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ers_SetFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Set Filter</shortDescription>
+        <value>Set Filter</value>
+    </labels>
+    <labels>
+        <fullName>est</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>est</shortDescription>
+        <value>(est.)</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>iBau</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>iBau</shortDescription>
+        <value>iBau</value>
+    </labels>
+    <labels>
+        <fullName>sremailNoSearchResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoSearchResultsMessage</shortDescription>
+        <value>No results found</value>
+    </labels>
+    <labels>
+        <fullName>sremailSearchMembers</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search existing Flow resources</shortDescription>
+        <value>Search existing Flow resources</value>
+    </labels>
+    <labels>
+        <fullName>vip_Network</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>vip Network</shortDescription>
+        <value>vip Network</value>
+    </labels>
+</CustomLabels>

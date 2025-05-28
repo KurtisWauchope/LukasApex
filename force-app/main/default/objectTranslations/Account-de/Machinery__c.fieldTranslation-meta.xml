@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Maschinenpark</label>
+    <name>Machinery__c</name>
+    <picklistValues>
+        <masterLabel>BAZ</masterLabel>
+        <translation>BAZ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facade punch</masterLabel>
+        <translation>Fassadenstanze</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multifunctional punch</masterLabel>
+        <translation>Multifunktionsstanze</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System tools</masterLabel>
+        <translation>Systemwerkzeuge</translation>
+    </picklistValues>
+</CustomFieldTranslation>

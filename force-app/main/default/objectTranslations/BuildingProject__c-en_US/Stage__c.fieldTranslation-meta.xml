@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage --></label>
+    <name>Stage__c</name>
+    <picklistValues>
+        <masterLabel>Award Fabricator</masterLabel>
+        <translation><!-- Award Fabricator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Award System house</masterLabel>
+        <translation><!-- Award System house --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting/ Planning</masterLabel>
+        <translation><!-- Consulting/ Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Execution</masterLabel>
+        <translation><!-- Execution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research</masterLabel>
+        <translation><!-- Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tender &amp; Quote</masterLabel>
+        <translation><!-- Tender &amp; Quote --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

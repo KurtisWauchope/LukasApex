@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SystemType__c</fullName>
+    <label>System Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aluminiumfassade</fullName>
+                <default>false</default>
+                <label>Aluminum facade</label>
+            </value>
+            <value>
+                <fullName>Holzfassade</fullName>
+                <default>false</default>
+                <label>Wooden facade</label>
+            </value>
+            <value>
+                <fullName>Stahlfassade</fullName>
+                <default>false</default>
+                <label>Steel facade</label>
+            </value>
+            <value>
+                <fullName>Aluminiumdach</fullName>
+                <default>false</default>
+                <label>Aluminum roof</label>
+            </value>
+            <value>
+                <fullName>Holzdach</fullName>
+                <default>false</default>
+                <label>Wooden roof</label>
+            </value>
+            <value>
+                <fullName>Stahldach</fullName>
+                <default>false</default>
+                <label>Steel roof</label>
+            </value>
+            <value>
+                <fullName>Aluminium Lochfenster/-Fensterbänder</fullName>
+                <default>false</default>
+                <label>Aluminum punched window / window frames</label>
+            </value>
+            <value>
+                <fullName>Einsatzfenster</fullName>
+                <default>false</default>
+                <label>Operational window</label>
+            </value>
+            <value>
+                <fullName>elementierte Lösung THERM+</fullName>
+                <default>false</default>
+                <label>Modular Solution THERM+</label>
+            </value>
+            <value>
+                <fullName>elementierte Lösung FRAME+</fullName>
+                <default>false</default>
+                <label>Modular Solution FRAME+</label>
+            </value>
+            <value>
+                <fullName>Hebe Schiebe Türe</fullName>
+                <default>false</default>
+                <label>Lift-and-slide door</label>
+            </value>
+            <value>
+                <fullName>Holz-Aluminium Fenster</fullName>
+                <default>false</default>
+                <label>Wood-Aluminum Windows</label>
+            </value>
+            <value>
+                <fullName>Aluminiumtüre</fullName>
+                <default>false</default>
+                <label>Aluminum door</label>
+            </value>
+            <value>
+                <fullName>Brandschutztüre</fullName>
+                <default>false</default>
+                <label>Fire protection door</label>
+            </value>
+            <value>
+                <fullName>Dachfenster</fullName>
+                <default>false</default>
+                <label>Roof window</label>
+            </value>
+            <value>
+                <fullName>Aluminium-Dach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aluminium-Dach</label>
+            </value>
+            <value>
+                <fullName>Aluminium-Fassade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aluminium-Fassade</label>
+            </value>
+            <value>
+                <fullName>Aluminium-Fenster</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aluminium-Fenster</label>
+            </value>
+            <value>
+                <fullName>Holz-Dach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Holz-Dach</label>
+            </value>
+            <value>
+                <fullName>Holz-Fassade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Holz-Fassade</label>
+            </value>
+            <value>
+                <fullName>Stahl-Dach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stahl-Dach</label>
+            </value>
+            <value>
+                <fullName>Stahl-Fassade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stahl-Fassade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Warengruppe</label>
+    <name>MaterialGroup__c</name>
+    <picklistValues>
+        <masterLabel>12 - THERM + Stahl</masterLabel>
+        <translation><!-- 12 - THERM + Stahl --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

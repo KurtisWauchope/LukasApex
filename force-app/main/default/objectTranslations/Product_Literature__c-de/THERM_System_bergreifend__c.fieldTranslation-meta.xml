@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- THERM+ Systemübergreifend --></label>
+    <name>THERM_System_bergreifend__c</name>
+    <picklistValues>
+        <masterLabel>001047 - Verarbeitung THERM+ Glasdachkonstruktionen</masterLabel>
+        <translation><!-- 001047 - Verarbeitung THERM+ Glasdachkonstruktionen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001048 - Planung THERM+ Glasdachkonstruktionen</masterLabel>
+        <translation><!-- 001048 - Planung THERM+ Glasdachkonstruktionen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001067 - Lieferprogramm THERM+ Gesamt</masterLabel>
+        <translation><!-- 001067 - Lieferprogramm THERM+ Gesamt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

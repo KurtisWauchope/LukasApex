@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Test_Messe</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>VisitReportTradeFair__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Test_Messe</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>VisitReportTradeFair__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#FE0105</headerColor>
+        <logo>DS2A2785_web1920x1280</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Die App dient der schnellen Anlage von Accounts &amp; Kontakten auf der Messe sowie Dokumentieren von Messebesuchen.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>true</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Messe App</label>
+    <navType>Console</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>VisitReportTradeFair__c</tabs>
+    <tabs>Revenue__c</tabs>
+    <tabs>BudgetPlanning__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Messe_App_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>BudgetPlanning__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Revenue__c</tab>
+        </mappings>
+        <mappings>
+            <tab>VisitReportTradeFair__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Campaign</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

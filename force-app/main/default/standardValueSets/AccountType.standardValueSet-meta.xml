@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Architect</fullName>
+        <default>false</default>
+        <label>Architect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building owner (Awarding authority)</fullName>
+        <default>false</default>
+        <label>Building owner (Awarding authority)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction office</fullName>
+        <default>false</default>
+        <label>Construction office</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Datenpflege ausstehend</fullName>
+        <default>false</default>
+        <label>Datenpflege ausstehend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General contractor</fullName>
+        <default>false</default>
+        <label>General contractor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project controller</fullName>
+        <default>false</default>
+        <label>Project controller</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project developer</fullName>
+        <default>false</default>
+        <label>Project developer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical planner</fullName>
+        <default>false</default>
+        <label>Technical planner</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Architect</masterLabel>
+        <translation>Architecte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Building owner (Awarding authority)</masterLabel>
+        <translation>Constructeur (service d&apos;attribution)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitor</masterLabel>
+        <translation>Concurrent</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Construction office</masterLabel>
+        <translation><!-- Construction office --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Datenpflege ausstehend</masterLabel>
+        <translation>Gestion des données en attente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General contractor</masterLabel>
+        <translation>Entrepreneur général</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investor</masterLabel>
+        <translation><!-- Investor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project controller</masterLabel>
+        <translation>Chef de projet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project developer</masterLabel>
+        <translation>Développeur de projet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical planner</masterLabel>
+        <translation>Planificateur spécialisé</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

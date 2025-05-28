@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- WING Fenstersysteme --></label>
+    <name>WING_Fenstersysteme__c</name>
+    <picklistValues>
+        <masterLabel>001006 - Planung WING Dachfenster 105 DI/Einsatzfenster 50 SK/50 A</masterLabel>
+        <translation><!-- 001006 - Planung WING Dachfenster 105 DI/Einsatzfenster 50 SK/50 A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001020 - Verarbeitung WING Dachfenster 105 DI</masterLabel>
+        <translation><!-- 001020 - Verarbeitung WING Dachfenster 105 DI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>001021 - Verarbeitung WING Einsatzfenster 50 SK/50 A</masterLabel>
+        <translation><!-- 001021 - Verarbeitung WING Einsatzfenster 50 SK/50 A --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

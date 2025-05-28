@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TenderType__c</fullName>
+    <label>Tender Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Competitive bidding</fullName>
+                <default>false</default>
+                <label>Competitive bidding</label>
+            </value>
+            <value>
+                <fullName>General Contractor</fullName>
+                <default>false</default>
+                <label>General Contractor</label>
+            </value>
+            <value>
+                <fullName>General Contractor seeking phase</fullName>
+                <default>false</default>
+                <label>General Contractor seeking phase</label>
+            </value>
+            <value>
+                <fullName>Public</fullName>
+                <default>false</default>
+                <label>Public</label>
+            </value>
+            <value>
+                <fullName>Restricted</fullName>
+                <default>false</default>
+                <label>Restricted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

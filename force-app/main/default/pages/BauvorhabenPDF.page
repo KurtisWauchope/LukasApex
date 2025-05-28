@@ -1,0 +1,246 @@
+<apex:page standardController="BuildingProject__c" extensions="V11_BuildingProjectControllerExtension" showHeader="false" renderas="pdf" docType="html-5.0" applyBodyTag="false" applyHtmlTag="false">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @page{
+                size: A4 landscape;
+                topmargin="1";
+            }            
+            .tablestyle {
+        border: 1px solid;
+        border-collapse: collapse;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        
+    }
+    .tablestyle td {
+        border: 1px solid;
+        border-spacing: 10px;
+        
+    }
+    .tablestyle td h2 {
+        margin-bottom: 2;
+    }
+    .colcenter {
+        text-align: center;
+    }
+        </style>
+        </meta>
+    </head>
+<apex:pageBlock >
+<table cellpadding="1" style="font-family: Arial Unicode MS;font-size:14pt;" width="100%">
+<tr>
+        <td style="font-size:24pt; padding-bottom: 20px, font-weight:bold" align = "left" ><b>{!$Label.ProjectInfo}</b></td>
+        <th style="padding-bottom: 20px" >            
+                    <img src='{!URLFOR($Resource.businesslogo)}' title="logo" align="right" height="35"/>
+        </th>
+</tr>
+  
+</table>
+
+<hr style="border-color: red; margin-bottom: 30px; border-width: 3px; border-style: solid;"> </hr>
+
+<table cellpadding="5" id="maintab" class="tablestyle" rules= "groups" width ="100%">
+
+    <tr>
+        
+       <!--- <td bgcolor="EDF2F4"    colspan="2"  ><b><apex:outputLabel value="{!$ObjectType.BuildingProject__c.fields.Name.label}" /></b></td> -->
+        <td bgcolor="EDF2F4" colspan="2"><b>{!$ObjectType.BuildingProject__c.Fields.Name.Label}</b></td>
+        <td  colspan="3"  >{!BuildingProject__c.Name}<br></br>{!BuildingProject__c.ProjectAddress__Street__s}<br></br>{!BuildingProject__c.ProjectAddress__PostalCode__s} {!BuildingProject__c.ProjectAddress__City__s}</td>       
+        
+        <td   colspan="7" rowspan="7" class="colcenter" > 
+         <!--Bild Hier einbinden -->
+         <apex:image value="{!URLFOR($Resource.PictureUploader, '/default-avatar.png')}" rendered="{!NOT( hasPicture )}" styleClass="contact-
+        
+        
+        
+        " />
+        
+        <div align="right"  width="100%">
+        <apex:image value="/servlet/servlet.FileDownload?file={!file.Id}" width="520" height="300" rendered="{!hasPicture}" styleClass="contact-img" />
+        </div>
+         </td>   
+   </tr>
+        
+        
+     
+       
+       <!-- zweite Zeile -->
+       
+        <tr>
+        
+    
+    <td bgcolor="EDF2F4" colspan="2" ><b>{!$Label.RaicoPrNumber}</b></td>
+    <td colspan="4" >{!BuildingProject__c.ComarchBuildingProjectNumber__c}</td>
+        
+        
+    </tr>
+    
+    <!-- dritte Zeile -->
+    
+    <tr>
+    <td bgcolor="EDF2F4" colspan="2" ><b>{!$ObjectType.BuildingProject__c.Fields.DateOfServiceSpecification__c.Label}</b> </td>
+    <td colspan="4">
+    <apex:outputText value="{0,date,dd.MM.yyyy}"> <apex:param value="{!BuildingProject__c.DateOfServiceSpecification__c}"></apex:param> </apex:outputText>
+    </td>
+    </tr>
+    
+    <!-- vierte Zeile -->
+    <tr>
+    
+    <td bgcolor="EDF2F4" colspan="2" ><b>{!$Label.ExecutionDuration} {!$Label.est}</b> </td>
+    <td colspan="4">
+    <apex:outputText value="{0,date,dd.MM.yyyy}"> 
+    <apex:param value="{!BuildingProject__c.ConstructionStart__c}"></apex:param>
+    </apex:outputText>
+    &nbsp;<apex:outputText value="{0,date,dd.MM.yyyy}">
+    <apex:param value="{!BuildingProject__c.ConstructionEndPlanned__c}">-</apex:param>
+    &nbsp;</apex:outputText>
+    
+    </td>
+    </tr>
+    
+    <!-- fuenfte Zeile -->
+    <tr>
+    
+        <td bgcolor="EDF2F4"   colspan="2" ><b>{!$ObjectType.BuildingProject__c.Fields.TenderType__c.Label}</b></td>
+    <td  colspan="4" ><apex:outputField value="{!BuildingProject__c.TenderType__c}"/></td>
+    </tr>
+     
+    <!-- sechste Zeile -->
+    
+    
+    <tr>
+    <td bgcolor="EDF2F4" colspan="2" rowspan="1" ><b>{!$Label.Architect}</b></td>
+    <td colspan="4"> 
+        <apex:repeat value="{!Archs}" var="o" id="a" rows="2">
+          <apex:outputText value="{!o.Name}" id="b"/><br/>
+          <apex:outputText value="{!o.BillingStreet}" id="c"/><br/>
+          <apex:outputText value="{!o.BillingPostalCode} {!o.BillingCity}"/><br/>
+          <br></br>
+        </apex:repeat>
+        </td>
+     </tr>
+        
+    <!-- siebte Zeile -->
+        <tr>
+    <td bgcolor="EDF2F4"  colspan="2" rowspan="1" ><b>{!$Label.Planner}</b></td>
+    <td colspan="4"> 
+        <apex:repeat value="{!Planner}" var="o" rows="2">
+          <apex:outputText value="{!o.Name}"/><br/>
+          <apex:outputText value="{!o.BillingStreet}"/><br/>
+          <apex:outputText value="{!o.BillingPostalCode} {!o.BillingCity}"/><br/>
+          <br></br>
+        </apex:repeat>
+        </td>
+     </tr>
+        
+        <!-- <tr>
+    
+     <td bgcolor="EDF2F4"   colspan="2" ><b>Fachplaner:</b></td>
+        <apex:repeat value="{!Planner}" var="o">
+            <td colspan="3">{!o.Name}<br></br>
+            {!o.BillingStreet}<br> </br>
+            {!o.BillingPostalCode}
+            {!o.BillingCity}<br> </br></td>
+        </apex:repeat>"
+        
+    </tr>-->
+    
+    <!-- leere Zeile -->
+    
+    <!-- achte Zeile -->
+    
+    <td bgcolor="EDF2F4"  colspan="2" ><b>{!$Label.Builder}</b></td>
+    <td colspan="4"> 
+        <apex:repeat value="{!BAuth}" var="o">
+          <apex:outputText value="{!o.Name}"/><br/>
+          <apex:outputText value="{!o.BillingStreet}"/><br/>
+          <apex:outputText value="{!o.BillingPostalCode} {!o.BillingCity}"/><br/>
+          <br></br>
+        </apex:repeat>
+        </td>
+           
+    
+    <td bgcolor="EDF2F4"  colspan="1" ><b></b></td>
+    <td colspan="5"> 
+        <apex:repeat value="{!GC}" var="o" rows="2">
+          <apex:outputText value="{!o.Name}"/><br/>
+          <apex:outputText value="{!o.BillingStreet}"/><br/>
+          <apex:outputText value="{!o.BillingPostalCode} {!o.BillingCity}"/><br/>
+          <br></br>
+        </apex:repeat>
+        </td>
+    
+   
+       <!-- 
+       <td bgcolor="EDF2F4"   colspan="2"  ><b>Generalunternehmer</b></td>
+        <apex:repeat value="{!GC}" var="o">
+            <td colspan="7">{!o.Name}<br></br>
+            {!o.BillingStreet}<br></br>
+            {!o.BillingPostalCode}
+            {!o.BillingCity}<br> </br><br> </br></td>
+        </apex:repeat>
+-->
+ 
+ <!-- neunte Zeile -->
+               
+        <tr>
+       
+        <td bgcolor="EDF2F4"   colspan="2" rowspan="5" ><b>{!$Label.Scope}</b></td>
+         </tr> 
+        <tr> 
+            <apex:variable var="index" value="{!1}" />
+            <apex:repeat value="{!Systems}" var="s" rows="3">
+                <td colspan="5"> <apex:outputField value="{!s.SystemType__c}"/> </td>
+                <td colspan="4" style="text-align:right"> <apex:outputField value="{!s.SystemSize__c}"/> </td>
+                <td colspan="1" style="text-align:right"> <apex:outputField value="{!s.SystemUnit__c}"/> </td>
+                <apex:outputText escape="false" rendered="{!MOD(index, 1) == 0}" value="</tr><tr>"/>
+                <apex:variable var="index" value="{!index + 1}" />
+            </apex:repeat>
+        </tr>
+        
+        <!-- zehnte Zeile -->
+       
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        
+        <tr>
+                <td bgcolor="EDF2F4" align="left" char="." colspan="2" rowspan="2" ><b>{!$ObjectType.BuildingProject__c.Fields.Total_Size__c.Label}</b></td>
+                <td bgcolor="EDF2F4" align="right" char="." colspan="13" rowspan="2" ><b>{!BuildingProject__c.Total_Size__c} m&sup2;</b></td>
+        </tr>
+    <!-- zwoelfte Zeile -->
+    
+        <tr>
+        </tr>
+    <tr>
+        <td bgcolor="EDF2F4"   colspan="2" rowspan="3" ><b>{!$ObjectType.BuildingProject__c.Fields.ExternalNote__c.Label}</b></td>
+        <!-- <td colspan="13" rowspan="2" valign="top">{!BuildingProject__c.ExternalNote__c}</td> //  <apex:outputText escape="false" value="{!BuildingProject__c.ExternalNote__c}"/> -->
+       <td colspan="13" rowspan="3" valign="top"> <apex:outputText escape="false" value="{!BuildingProject__c.ExternalNote__c}"/> </td> 
+    <!-- dreizehnte Zeile -->
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr> 
+    
+     <td bgcolor="EDF2F4"  colspan="2" rowspan="1" ><b>{!$Label.ProjectSales}</b></td>
+        <apex:repeat value="{!ProjectSalesRep}" var="o">
+        <td colspan="3">  <apex:outputText value="{!o.Name}"/><br/></td>
+        <td colspan="3">  <apex:outputText value="{!o.Phone}"/><br/></td>
+        <td colspan="4">  <apex:outputText value="{!o.Email}"/><br/></td>
+          <br></br>
+        </apex:repeat>
+    </tr>
+</table>
+
+<!-- Ende Tabelle -->
+
+
+
+</apex:pageBlock>
+
+</apex:page>

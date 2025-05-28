@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Research</fullName>
+                <default>true</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Consulting/ Planning</fullName>
+                <default>false</default>
+                <label>Consulting/ Planning</label>
+            </value>
+            <value>
+                <fullName>Tender &amp; Quote</fullName>
+                <default>false</default>
+                <label>Tender &amp; Quote</label>
+            </value>
+            <value>
+                <fullName>Award Fabricator</fullName>
+                <default>false</default>
+                <label>Award Fabricator</label>
+            </value>
+            <value>
+                <fullName>Award System house</fullName>
+                <default>false</default>
+                <label>Award System house</label>
+            </value>
+            <value>
+                <fullName>Execution</fullName>
+                <default>false</default>
+                <label>Execution</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Award</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Award</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

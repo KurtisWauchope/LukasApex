@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bidder</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bidder</value>
+    </caseValues>
+    <layouts>
+        <layout>Bidder Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Bidder Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Competitor --></label>
+        <name>Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Proactive bidder --></label>
+        <name>Proactive_bidder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Raico bidder --></label>
+        <name>Raico_bidder</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

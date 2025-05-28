@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Title__c</fields>
+    <fields>ExternalComarchContactId__c</fields>
+    <fields>AccountId</fields>
+    <fields>Postal_Code_City__c</fields>
+    <fields>ComarchSyncStatusContact__c</fields>
+    <fields>OwnerId</fields>
+    <label>Contact Compact Layout</label>
+</CompactLayout>

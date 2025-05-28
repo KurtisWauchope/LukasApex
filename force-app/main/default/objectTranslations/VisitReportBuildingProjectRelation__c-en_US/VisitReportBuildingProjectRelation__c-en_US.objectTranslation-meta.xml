@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Visit Reports of Building Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Visit Reports of Building Projects</value>
+    </caseValues>
+    <nameFieldLabel>Visit Report of Building Project</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

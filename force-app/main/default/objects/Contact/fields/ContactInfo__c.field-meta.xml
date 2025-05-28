@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactInfo__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.Name + BR() + Text(Salutation) + &apos; &apos; + FirstName  + &apos; &apos; + LastName +BR()+ Account.BillingStreet +BR()+ Account.BillingPostalCode +&apos; &apos;+ Account.BillingCity +BR()+ Account.BillingCountry +BR()+&apos;Tel.: &apos;+ Account.Phone +BR()+&apos;Mobil: &apos;+ MobilePhone +BR()+&apos;Mail: &apos;+ Email</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ContactInfo</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
